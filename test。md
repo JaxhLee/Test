@@ -1,0 +1,11 @@
+正常 -> waitOprt
+
+挂起 -> wait
+
+GS_Begin = 1
+GS_Wait = 2
+GS_WaitOperator = 3
+GS_Move = 4
+GS_Finished = 5
+GS_DeathClearing = 6
+GS_Supply = 7       ----补给阶段
