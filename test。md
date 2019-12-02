@@ -1,11 +1,58 @@
-正常 -> waitOprt
+particles/status_fx/status_effect_lich_gaze.vpcf
+particles/units/heroes/hero_lich/lich_gaze.vpcf
+particles/units/heroes/hero_lich/lich_gaze_eyes.vpcf
 
-挂起 -> wait
 
-GS_Begin = 1
-GS_Wait = 2
-GS_WaitOperator = 3
-GS_Move = 4
-GS_Finished = 5
-GS_DeathClearing = 6
-GS_Supply = 7       ----补给阶段
+particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+particles/units/heroes/hero_lich/lich_slowed_cold.vpcf
+particles/status_fx/status_effect_frost_lich.vpcf
+particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+
+particles/units/heroes/hero_lich/lich_slowed_cold.vpcf
+particles/status_fx/status_effect_frost_lich.vpcf
+particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+
+particles/generic_gameplay/lasthit_coins.vpcf
+
+particles/generic_gameplay/lasthit_coins.vpcf
+
+particles/generic_hero_status/hero_bloodpool.vpcf
+particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+
+particles/generic_gameplay/lasthit_coins.vpcf
+
+particles/generic_gameplay/lasthit_coins.vpcf
+
+particles/generic_hero_status/hero_bloodpool.vpcf
+particles/units/heroes/hero_lich/lich_ambient_frost.vpcf
+particles/units/heroes/hero_lich/lich_ambient_frost_legs.vpcf
+
+
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_slowed_cold.vpcf
+ particles/status_fx/status_effect_frost_lich.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_slowed_cold.vpcf
+ particles/status_fx/status_effect_frost_lich.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
+ particles/units/heroes/hero_lich/lich_chain_frost.vpcf
+ particles/msg_fx/msg_damage_numbers_incoming.vpcf
+ particles/msg_fx/msg_damage_numbers_outgoing.vpcf
