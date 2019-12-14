@@ -1,0 +1,156 @@
+onTakeDamage + OnDeath
+[new_pos]:Vector0000000000496840[0.0000000.0000000.000000]
+[process_procs]:true
+[order_type]:0
+[octarine_tested]:false
+[issuer_player_index]:0
+[stout_tested]:false
+[fail_type]:0
+[damage_category]:1
+[reincarnate]:false
+[damage]:122.32252502441
+[ignore_invis]:false
+[attacker]:table:0x00cad888
+[ranged_attack]:false
+[record]:155
+[unit]:table:0x00a50c18
+[do_not_consume]:false
+[damage_type]:1
+[activity]:-1
+[heart_regen_applied]:false
+[diffusal_applied]:false
+[mkb_tested]:false
+[no_attack_cooldown]:false
+[damage_flags]:0
+[original_damage]:173.06799316406
+[gain]:0
+[cost]:0
+[basher_tested]:false
+[distance]:0
+
+on modifier added
+[new_pos]: Vector 0000000000330248 [0.000000 0.000000 0.000000]
+[process_procs]: false
+[order_type]: 0
+[octarine_tested]: false
+[issuer_player_index]: 493
+[stout_tested]: false
+[fail_type]: -242984704
+[damage_category]: 0
+[reincarnate]: false
+[damage]: 0
+[ignore_invis]: false
+[cost]: 0
+[ranged_attack]: false
+[record]: 493
+[unit]: table: 0x00cb3ec8
+[do_not_consume]: false
+[damage_type]: 0
+[activity]: -1
+[heart_regen_applied]: false
+[diffusal_applied]: false
+[no_attack_cooldown]: false
+[damage_flags]: 0
+[original_damage]: 0
+[mkb_tested]: false
+[gain]: 0
+[basher_tested]: false
+[distance]: 0
+
+onorder
+new_pos	Vector 00000000002D8098 [-5478.152832 -6350.941895 384.000000]
+process_procs	true
+order_type	1
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+cost	0
+ranged_attack	false
+record	0
+unit	table: 0x009fc480
+do_not_consume	false
+damage_type	1082335332
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+mkb_tested	false
+gain	0
+basher_tested	false
+distance	0
+
+new_pos	Vector 00000000003B4650 [0.000000 0.000000 0.000000]
+process_procs	true
+order_type	4
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+cost	0
+ranged_attack	false
+record	0
+unit	table: 0x009fc480
+do_not_consume	false
+damage_type	1082813952
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+gain	0
+target	table: 0x005030a0
+basher_tested	false
+
+CreateLinearProjectile params:
+Ability,
+Source,
+vSpawnOrigin,
+vVelocity,
+vAcceleration,	// 加速度
+fDistance,
+fStartRadius,
+fEndRadius,
+bHasFrontalCone,
+iUnitTargetTeam,
+iUnitTargetType,
+iUnitTargetFlags,
+bProvidesVision,
+iVisionTeamNumber,
+iVisionRadius,
+bDrawsOnMinimap,
+bVisibleToEnemies,
+bIgnoreSource,
+fExpireTime,
+fMaxSpeed,
+bDeleteOnHit
+
+CreateTrackingProjectile:
+Ability,
+Source,
+Target,
+EffectName,
+iMoveSpeed,
+vSourceLoc,
+iSourceAttachment,
+bProvidesVision, // 提供视野
+iVisionTeamNumber,
+iVisionRadius,
+bDrawsOnMinimap, // 小地图绘制
+bDodgeable, // 可躲避
+bIsAttack,
+bVisibleToEnemies,
+bReplaceExisting,
+flExpireTime

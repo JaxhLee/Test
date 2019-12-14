@@ -93,13 +93,13 @@ function CreateHTTPRequestScriptVM( string_1, string_2 ) end
 function CreateHeroForPlayer( string_1, handle_2 ) end
 
 ---[[ CreateIllusions  Create illusions of the passed hero that belong to passed unit using passed modifier data. ( hOwner, hHeroToCopy, hModiiferKeys, nNumIllusions, nPadding, bScramblePosition, bFindClearSpace )
-Supported keys:
-outgoing_damage
-incoming_damage
-bounty_base
-bounty_growth
-outgoing_damage_structure
-outgoing_damage_roshan ]]
+-- Supported keys:
+-- outgoing_damage
+-- incoming_damage
+-- bounty_base
+-- bounty_growth
+-- outgoing_damage_structure
+-- outgoing_damage_roshan ]]
 -- @return table
 -- @param handle_1 handle
 -- @param handle_2 handle
@@ -2231,18 +2231,18 @@ MODIFIER_PROPERTY_ALWAYS_ETHEREAL_ATTACK = 146 -- GetAllowEtherealAttack
 MODIFIER_PROPERTY_ATTACKSPEED_BASE_OVERRIDE = 28 -- GetModifierAttackSpeedBaseOverride
 MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT = 30 -- GetModifierAttackSpeedBonus_Constant
 MODIFIER_PROPERTY_ATTACK_POINT_CONSTANT = 34 -- GetModifierAttackPointConstant
-MODIFIER_PROPERTY_ATTACK_RANGE_BASE_OVERRIDE = 94 -- GetModifierAttackRangeOverride
-MODIFIER_PROPERTY_ATTACK_RANGE_BONUS = 95 -- GetModifierAttackRangeBonus
-MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_PERCENTAGE = 97 -- GetModifierAttackRangeBonusPercentage
-MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_UNIQUE = 96 -- GetModifierAttackRangeBonusUnique
-MODIFIER_PROPERTY_AVOID_DAMAGE = 57 -- GetModifierAvoidDamage
-MODIFIER_PROPERTY_AVOID_SPELL = 58 -- GetModifierAvoidSpell
+MODIFIER_PROPERTY_ATTACK_RANGE_BASE_OVERRIDE = 95 -- GetModifierAttackRangeOverride
+MODIFIER_PROPERTY_ATTACK_RANGE_BONUS = 96 -- GetModifierAttackRangeBonus
+MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_PERCENTAGE = 98 -- GetModifierAttackRangeBonusPercentage
+MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_UNIQUE = 97 -- GetModifierAttackRangeBonusUnique
+MODIFIER_PROPERTY_AVOID_DAMAGE = 58 -- GetModifierAvoidDamage
+MODIFIER_PROPERTY_AVOID_SPELL = 59 -- GetModifierAvoidSpell
 MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE = 4 -- GetModifierBaseAttack_BonusDamage
-MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE = 46 -- GetModifierBaseDamageOutgoing_Percentage
-MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE = 47 -- GetModifierBaseDamageOutgoing_PercentageUnique
+MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE = 47 -- GetModifierBaseDamageOutgoing_Percentage
+MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE = 48 -- GetModifierBaseDamageOutgoing_PercentageUnique
 MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT = 32 -- GetModifierBaseAttackTimeConstant
 MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT_ADJUST = 33 -- GetModifierBaseAttackTimeConstant_Adjust
-MODIFIER_PROPERTY_BASE_MANA_REGEN = 71 -- GetModifierBaseRegen
+MODIFIER_PROPERTY_BASE_MANA_REGEN = 72 -- GetModifierBaseRegen
 MODIFIER_PROPERTY_BONUS_DAY_VISION = 127 -- GetBonusDayVision
 MODIFIER_PROPERTY_BONUS_NIGHT_VISION = 128 -- GetBonusNightVision
 MODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE = 129 -- GetBonusNightVisionUnique
@@ -2252,13 +2252,12 @@ MODIFIER_PROPERTY_BOUNTY_CREEP_MULTIPLIER = 149 -- Unused
 MODIFIER_PROPERTY_BOUNTY_OTHER_MULTIPLIER = 150 -- Unused
 MODIFIER_PROPERTY_CAN_ATTACK_TREES = 212 -- GetModifierCanAttackTrees
 MODIFIER_PROPERTY_CASTTIME_PERCENTAGE = 109 -- GetModifierPercentageCasttime
-MODIFIER_PROPERTY_CAST_RANGE_BONUS = 91 -- GetModifierCastRangeBonus
-MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING = 93 -- GetModifierCastRangeBonusStacking
-MODIFIER_PROPERTY_CAST_RANGE_BONUS_TARGET = 92 -- GetModifierCastRangeBonusTarget
+MODIFIER_PROPERTY_CAST_RANGE_BONUS = 92 -- GetModifierCastRangeBonus
+MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING = 94 -- GetModifierCastRangeBonusStacking
+MODIFIER_PROPERTY_CAST_RANGE_BONUS_TARGET = 93 -- GetModifierCastRangeBonusTarget
 MODIFIER_PROPERTY_CHANGE_ABILITY_VALUE = 205 -- GetModifierChangeAbilityValue
-MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE = 106 -- GetModifierPercentageCooldown
+MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE = 107 -- GetModifierPercentageCooldown
 MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE_ONGOING = 108 -- GetModifierPercentageCooldownOngoing
-MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE_STACKING = 107 -- GetModifierPercentageCooldownStacking
 MODIFIER_PROPERTY_COOLDOWN_REDUCTION_CONSTANT = 31 -- GetModifierCooldownReduction_Constant
 MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE = 35 -- GetModifierDamageOutgoing_Percentage
 MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION = 36 -- GetModifierDamageOutgoing_Percentage_Illusion
@@ -2269,54 +2268,55 @@ MODIFIER_PROPERTY_DISABLE_HEALING = 144 -- GetDisableHealing
 MODIFIER_PROPERTY_DISABLE_TURNING = 203 -- GetModifierDisableTurning
 MODIFIER_PROPERTY_DODGE_PROJECTILE = 152 -- GetModifierDodgeProjectile
 MODIFIER_PROPERTY_DONT_GIVE_VISION_OF_ATTACKER = 215 -- GetModifierNoVisionOfAttacker
-MODIFIER_PROPERTY_EVASION_CONSTANT = 52 -- GetModifierEvasion_Constant
+MODIFIER_PROPERTY_EVASION_CONSTANT = 53 -- GetModifierEvasion_Constant
 MODIFIER_PROPERTY_EXP_RATE_BOOST = 113 -- GetModifierPercentageExpRateBoost
-MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS = 81 -- GetModifierExtraHealthBonus
-MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE = 83 -- GetModifierExtraHealthPercentage
-MODIFIER_PROPERTY_EXTRA_MANA_BONUS = 82 -- GetModifierExtraManaBonus
-MODIFIER_PROPERTY_EXTRA_MANA_PERCENTAGE = 84 -- GetModifierExtraManaPercentage
-MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS = 80 -- GetModifierExtraStrengthBonus
+MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS = 82 -- GetModifierExtraHealthBonus
+MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE = 84 -- GetModifierExtraHealthPercentage
+MODIFIER_PROPERTY_EXTRA_MANA_BONUS = 83 -- GetModifierExtraManaBonus
+MODIFIER_PROPERTY_EXTRA_MANA_PERCENTAGE = 85 -- GetModifierExtraManaPercentage
+MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS = 81 -- GetModifierExtraStrengthBonus
 MODIFIER_PROPERTY_FIXED_ATTACK_RATE = 29 -- GetModifierFixedAttackRate
 MODIFIER_PROPERTY_FIXED_DAY_VISION = 131 -- GetFixedDayVision
 MODIFIER_PROPERTY_FIXED_NIGHT_VISION = 132 -- GetFixedNightVision
 MODIFIER_PROPERTY_FORCE_DRAW_MINIMAP = 202 -- GetForceDrawOnMinimap
-MODIFIER_PROPERTY_HEALTH_BONUS = 78 -- GetModifierHealthBonus
-MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT = 75 -- GetModifierConstantHealthRegen
-MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE = 76 -- GetModifierHealthRegenPercentage
-MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE_UNIQUE = 77 -- GetModifierHealthRegenPercentageUnique
-MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE = 42 -- GetModifierHPRegenAmplify_Percentage
-MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE_SOURCE = 41 -- GetModifierHPRegenAmplify_PercentageSource
+MODIFIER_PROPERTY_HEALTH_BONUS = 79 -- GetModifierHealthBonus
+MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT = 76 -- GetModifierConstantHealthRegen
+MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE = 77 -- GetModifierHealthRegenPercentage
+MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE_UNIQUE = 78 -- GetModifierHealthRegenPercentageUnique
+MODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE = 41 -- GetModifierHealAmplify_PercentageSource
+MODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_TARGET = 42 -- GetModifierHealAmplify_PercentageTarget
+MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE = 43 -- GetModifierHPRegenAmplify_Percentage
 MODIFIER_PROPERTY_IGNORE_CAST_ANGLE = 204 -- GetModifierIgnoreCastAngle
 MODIFIER_PROPERTY_IGNORE_COOLDOWN = 211 -- GetModifierIgnoreCooldown
 MODIFIER_PROPERTY_IGNORE_MOVESPEED_LIMIT = 26 -- GetModifierIgnoreMovespeedLimit
-MODIFIER_PROPERTY_IGNORE_PHYSICAL_ARMOR = 65 -- GetModifierIgnorePhysicalArmor
+MODIFIER_PROPERTY_IGNORE_PHYSICAL_ARMOR = 66 -- GetModifierIgnorePhysicalArmor
 MODIFIER_PROPERTY_ILLUSION_LABEL = 138 -- GetModifierIllusionLabel
 MODIFIER_PROPERTY_INCOMING_DAMAGE_ILLUSION = 214
-MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE = 48 -- GetModifierIncomingDamage_Percentage
-MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_CONSTANT = 50 -- GetModifierIncomingPhysicalDamageConstant
-MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE = 49 -- GetModifierIncomingPhysicalDamage_Percentage
-MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT = 51 -- GetModifierIncomingSpellDamageConstant
+MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE = 49 -- GetModifierIncomingDamage_Percentage
+MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_CONSTANT = 51 -- GetModifierIncomingPhysicalDamageConstant
+MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE = 50 -- GetModifierIncomingPhysicalDamage_Percentage
+MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT = 52 -- GetModifierIncomingSpellDamageConstant
 MODIFIER_PROPERTY_INVISIBILITY_ATTACK_BEHAVIOR_EXCEPTION = 12 -- GetModifierInvisibilityAttackBehaviorException
 MODIFIER_PROPERTY_INVISIBILITY_LEVEL = 11 -- GetModifierInvisibilityLevel
 MODIFIER_PROPERTY_IS_ILLUSION = 137 -- GetIsIllusion
 MODIFIER_PROPERTY_IS_SCEPTER = 195 -- GetModifierScepter
-MODIFIER_PROPERTY_LIFESTEAL_AMPLIFY_PERCENTAGE = 43 -- GetModifierLifestealRegenAmplify_Percentage
+MODIFIER_PROPERTY_LIFESTEAL_AMPLIFY_PERCENTAGE = 44 -- GetModifierLifestealRegenAmplify_Percentage
 MODIFIER_PROPERTY_LIFETIME_FRACTION = 199 -- GetUnitLifetimeFraction
 MODIFIER_PROPERTY_MAGICAL_CONSTANT_BLOCK = 116 -- GetModifierMagical_ConstantBlock
-MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BASE_REDUCTION = 66 -- GetModifierMagicalResistanceBaseReduction
-MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS = 68 -- GetModifierMagicalResistanceBonus
-MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS_ILLUSIONS = 69 -- GetModifierMagicalResistanceBonusIllusions
-MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE = 70 -- GetModifierMagicalResistanceDecrepifyUnique
-MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION = 67 -- GetModifierMagicalResistanceDirectModification
+MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BASE_REDUCTION = 67 -- GetModifierMagicalResistanceBaseReduction
+MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS = 69 -- GetModifierMagicalResistanceBonus
+MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS_ILLUSIONS = 70 -- GetModifierMagicalResistanceBonusIllusions
+MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE = 71 -- GetModifierMagicalResistanceDecrepifyUnique
+MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION = 68 -- GetModifierMagicalResistanceDirectModification
 MODIFIER_PROPERTY_MANACOST_PERCENTAGE = 110 -- GetModifierPercentageManacost
 MODIFIER_PROPERTY_MANACOST_PERCENTAGE_STACKING = 111 -- GetModifierPercentageManacostStacking
-MODIFIER_PROPERTY_MANA_BONUS = 79 -- GetModifierManaBonus
-MODIFIER_PROPERTY_MANA_REGEN_CONSTANT = 72 -- GetModifierConstantManaRegen
-MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE = 73 -- GetModifierConstantManaRegenUnique
-MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE = 74 -- GetModifierTotalPercentageManaRegen
-MODIFIER_PROPERTY_MAX_ATTACK_RANGE = 98 -- GetModifierMaxAttackRange
+MODIFIER_PROPERTY_MANA_BONUS = 80 -- GetModifierManaBonus
+MODIFIER_PROPERTY_MANA_REGEN_CONSTANT = 73 -- GetModifierConstantManaRegen
+MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE = 74 -- GetModifierConstantManaRegenUnique
+MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE = 75 -- GetModifierTotalPercentageManaRegen
+MODIFIER_PROPERTY_MAX_ATTACK_RANGE = 99 -- GetModifierMaxAttackRange
 MODIFIER_PROPERTY_MIN_HEALTH = 133 -- GetMinHealth
-MODIFIER_PROPERTY_MISS_PERCENTAGE = 59 -- GetModifierMiss_Percentage
+MODIFIER_PROPERTY_MISS_PERCENTAGE = 60 -- GetModifierMiss_Percentage
 MODIFIER_PROPERTY_MODEL_CHANGE = 193 -- GetModifierModelChange
 MODIFIER_PROPERTY_MODEL_SCALE = 194 -- GetModifierModelScale
 MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE = 23 -- GetModifierMoveSpeed_Absolute
@@ -2332,20 +2332,20 @@ MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE_UNIQUE_2 = 18 -- GetModifierMoveSpe
 MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE = 19 -- GetModifierMoveSpeedBonus_Special_Boots
 MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE_2 = 20 -- GetModifierMoveSpeedBonus_Special_Boots_2
 MODIFIER_PROPERTY_MOVESPEED_LIMIT = 27 -- GetModifierMoveSpeed_Limit
-MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE = 44 -- GetModifierMPRegenAmplify_Percentage
-MODIFIER_PROPERTY_MP_RESTORE_AMPLIFY_PERCENTAGE = 45 -- GetModifierMPRestoreAmplify_Percentage
-MODIFIER_PROPERTY_NEGATIVE_EVASION_CONSTANT = 53 -- GetModifierNegativeEvasion_Constant
+MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE = 45 -- GetModifierMPRegenAmplify_Percentage
+MODIFIER_PROPERTY_MP_RESTORE_AMPLIFY_PERCENTAGE = 46 -- GetModifierMPRestoreAmplify_Percentage
+MODIFIER_PROPERTY_NEGATIVE_EVASION_CONSTANT = 54 -- GetModifierNegativeEvasion_Constant
 MODIFIER_PROPERTY_OVERRIDE_ANIMATION = 121 -- GetOverrideAnimation
 MODIFIER_PROPERTY_OVERRIDE_ANIMATION_RATE = 123 -- GetOverrideAnimationRate
 MODIFIER_PROPERTY_OVERRIDE_ANIMATION_WEIGHT = 122 -- GetOverrideAnimationWeight
 MODIFIER_PROPERTY_OVERRIDE_ATTACK_DAMAGE = 9 -- GetModifierOverrideAttackDamage
 MODIFIER_PROPERTY_OVERRIDE_ATTACK_MAGICAL = 147 -- GetOverrideAttackMagical
 MODIFIER_PROPERTY_PERSISTENT_INVISIBILITY = 13 -- GetModifierPersistentInvisibility
-MODIFIER_PROPERTY_PHYSICAL_ARMOR_BASE_PERCENTAGE = 60 -- GetModifierPhysicalArmorBase_Percentage
-MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS = 62 -- GetModifierPhysicalArmorBonus
-MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE = 63 -- GetModifierPhysicalArmorBonusUnique
-MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE = 64 -- GetModifierPhysicalArmorBonusUniqueActive
-MODIFIER_PROPERTY_PHYSICAL_ARMOR_TOTAL_PERCENTAGE = 61 -- GetModifierPhysicalArmorTotal_Percentage
+MODIFIER_PROPERTY_PHYSICAL_ARMOR_BASE_PERCENTAGE = 61 -- GetModifierPhysicalArmorBase_Percentage
+MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS = 63 -- GetModifierPhysicalArmorBonus
+MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE = 64 -- GetModifierPhysicalArmorBonusUnique
+MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE = 65 -- GetModifierPhysicalArmorBonusUniqueActive
+MODIFIER_PROPERTY_PHYSICAL_ARMOR_TOTAL_PERCENTAGE = 62 -- GetModifierPhysicalArmorTotal_Percentage
 MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK = 117 -- GetModifierPhysical_ConstantBlock
 MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK_SPECIAL = 118 -- GetModifierPhysical_ConstantBlockSpecial
 MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE = 0 -- GetModifierPreAttack_BonusDamage
@@ -2360,28 +2360,28 @@ MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL = 6 -- GetModifierProcAttack_B
 MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PHYSICAL = 5 -- GetModifierProcAttack_BonusDamage_Physical
 MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE = 7 -- GetModifierProcAttack_BonusDamage_Pure
 MODIFIER_PROPERTY_PROCATTACK_FEEDBACK = 8 -- GetModifierProcAttack_Feedback
-MODIFIER_PROPERTY_PROJECTILE_NAME = 101 -- GetModifierProjectileName
-MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS = 99 -- GetModifierProjectileSpeedBonus
-MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS_PERCENTAGE = 100 -- GetModifierProjectileSpeedBonusPercentage
+MODIFIER_PROPERTY_PROJECTILE_NAME = 102 -- GetModifierProjectileName
+MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS = 100 -- GetModifierProjectileSpeedBonus
+MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS_PERCENTAGE = 101 -- GetModifierProjectileSpeedBonusPercentage
 MODIFIER_PROPERTY_PROVIDES_FOW_POSITION = 200 -- GetModifierProvidesFOWVision
 MODIFIER_PROPERTY_RADAR_COOLDOWN_REDUCTION = 196 -- GetModifierRadarCooldownReduction
 MODIFIER_PROPERTY_REFLECT_SPELL = 125 -- GetReflectSpell
-MODIFIER_PROPERTY_REINCARNATION = 102 -- ReincarnateTime
-MODIFIER_PROPERTY_RESPAWNTIME = 103 -- GetModifierConstantRespawnTime
-MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE = 104 -- GetModifierPercentageRespawnTime
-MODIFIER_PROPERTY_RESPAWNTIME_STACKING = 105 -- GetModifierStackingRespawnTime
+MODIFIER_PROPERTY_REINCARNATION = 103 -- ReincarnateTime
+MODIFIER_PROPERTY_RESPAWNTIME = 104 -- GetModifierConstantRespawnTime
+MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE = 105 -- GetModifierPercentageRespawnTime
+MODIFIER_PROPERTY_RESPAWNTIME_STACKING = 106 -- GetModifierStackingRespawnTime
 MODIFIER_PROPERTY_SPELLS_REQUIRE_HP = 201 -- GetModifierSpellsRequireHP
 MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE = 39 -- GetModifierSpellAmplify_Percentage
 MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_UNIQUE = 40 -- GetModifierSpellAmplify_PercentageUnique
-MODIFIER_PROPERTY_STATS_AGILITY_BONUS = 86 -- GetModifierBonusStats_Agility
-MODIFIER_PROPERTY_STATS_AGILITY_BONUS_PERCENTAGE = 89 -- GetModifierBonusStats_Agility_Percentage
-MODIFIER_PROPERTY_STATS_INTELLECT_BONUS = 87 -- GetModifierBonusStats_Intellect
-MODIFIER_PROPERTY_STATS_INTELLECT_BONUS_PERCENTAGE = 90 -- GetModifierBonusStats_Intellect_Percentage
-MODIFIER_PROPERTY_STATS_STRENGTH_BONUS = 85 -- GetModifierBonusStats_Strength
-MODIFIER_PROPERTY_STATS_STRENGTH_BONUS_PERCENTAGE = 88 -- GetModifierBonusStats_Strength_Percentage
-MODIFIER_PROPERTY_STATUS_RESISTANCE = 54 -- GetModifierStatusResistance
-MODIFIER_PROPERTY_STATUS_RESISTANCE_CASTER = 56 -- GetModifierStatusResistanceCaster
-MODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING = 55 -- GetModifierStatusResistanceStacking
+MODIFIER_PROPERTY_STATS_AGILITY_BONUS = 87 -- GetModifierBonusStats_Agility
+MODIFIER_PROPERTY_STATS_AGILITY_BONUS_PERCENTAGE = 90 -- GetModifierBonusStats_Agility_Percentage
+MODIFIER_PROPERTY_STATS_INTELLECT_BONUS = 88 -- GetModifierBonusStats_Intellect
+MODIFIER_PROPERTY_STATS_INTELLECT_BONUS_PERCENTAGE = 91 -- GetModifierBonusStats_Intellect_Percentage
+MODIFIER_PROPERTY_STATS_STRENGTH_BONUS = 86 -- GetModifierBonusStats_Strength
+MODIFIER_PROPERTY_STATS_STRENGTH_BONUS_PERCENTAGE = 89 -- GetModifierBonusStats_Strength_Percentage
+MODIFIER_PROPERTY_STATUS_RESISTANCE = 55 -- GetModifierStatusResistance
+MODIFIER_PROPERTY_STATUS_RESISTANCE_CASTER = 57 -- GetModifierStatusResistanceCaster
+MODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING = 56 -- GetModifierStatusResistanceStacking
 MODIFIER_PROPERTY_STRONG_ILLUSION = 139 -- GetModifierStrongIllusion
 MODIFIER_PROPERTY_SUPER_ILLUSION = 140 -- GetModifierSuperIllusion
 MODIFIER_PROPERTY_SUPER_ILLUSION_WITH_ULTIMATE = 141 -- GetModifierSuperIllusionWithUltimate
@@ -3195,7 +3195,7 @@ function CBodyComponent:AddVelocity( Vector_1, Vector_2 ) end
 function CBodyComponent:DetachFromParent(  ) end
 
 ---[[ CBodyComponent:GetSequence  Returns the active sequence
- ]]
+--  ]]
 -- @return <unknown>
 function CBodyComponent:GetSequence(  ) end
 
@@ -3204,7 +3204,7 @@ function CBodyComponent:GetSequence(  ) end
 function CBodyComponent:IsAttachedToParent(  ) end
 
 ---[[ CBodyComponent:LookupSequence  Returns a sequence id given a name
- ]]
+--  ]]
 -- @return <unknown>
 -- @param string_1 string
 function CBodyComponent:LookupSequence( string_1 ) end
@@ -3550,6 +3550,10 @@ function CDOTABaseAbility:IsFullyCastable(  ) end
 ---[[ CDOTABaseAbility:IsHidden   ]]
 -- @return bool
 function CDOTABaseAbility:IsHidden(  ) end
+
+---[[ CDOTABaseAbility:IsHiddenAsSecondaryAbility   ]]
+-- @return bool
+function CDOTABaseAbility:IsHiddenAsSecondaryAbility(  ) end
 
 ---[[ CDOTABaseAbility:IsHiddenWhenStolen   ]]
 -- @return bool
@@ -4377,6 +4381,483 @@ function CDOTAGameManager:GetHeroNameForUnitName( string_1 ) end
 -- @param int_1 int
 function CDOTAGameManager:GetHeroUnitNameByID( int_1 ) end
 
+---[[ CDOTAGamerules:AddBotPlayerWithEntityScript  Spawn a bot player of the passed hero name, player name, and team. ]]
+-- @return handle
+-- @param string_1 string
+-- @param string_2 string
+-- @param int_3 int
+-- @param string_4 string
+function CDOTAGamerules:AddBotPlayerWithEntityScript( string_1, string_2, int_3, string_4 ) end
+
+---[[ CDOTAGamerules:AddEventMetadataLeaderboardEntry  Event-only ( string szNameSuffix, int nStars, int nMaxStars, int nExtraData1, int nExtraData2 ) ]]
+-- @return bool
+-- @param string_1 string
+-- @param unsigned_2 unsigned
+-- @param unsigned_3 unsigned
+-- @param unsigned_4 unsigned
+-- @param unsigned_5 unsigned
+-- @param unsigned_6 unsigned
+-- @param unsigned_7 unsigned
+-- @param unsigned_8 unsigned
+-- @param unsigned_9 unsigned
+function CDOTAGamerules:AddEventMetadataLeaderboardEntry( string_1, unsigned_2, unsigned_3, unsigned_4, unsigned_5, unsigned_6, unsigned_7, unsigned_8, unsigned_9 ) end
+
+---[[ CDOTAGamerules:AddItemToWhiteList  Add an item to the whitelist ]]
+-- @return void
+-- @param string_1 string
+function CDOTAGamerules:AddItemToWhiteList( string_1 ) end
+
+---[[ CDOTAGamerules:AddMinimapDebugPoint  Add a point on the minimap. ]]
+-- @return void
+-- @param int_1 int
+-- @param Vector_2 Vector
+-- @param int_3 int
+-- @param int_4 int
+-- @param int_5 int
+-- @param int_6 int
+-- @param float_7 float
+function CDOTAGamerules:AddMinimapDebugPoint( int_1, Vector_2, int_3, int_4, int_5, int_6, float_7 ) end
+
+---[[ CDOTAGamerules:AddMinimapDebugPointForTeam  Add a point on the minimap for a specific team. ]]
+-- @return void
+-- @param int_1 int
+-- @param Vector_2 Vector
+-- @param int_3 int
+-- @param int_4 int
+-- @param int_5 int
+-- @param int_6 int
+-- @param float_7 float
+-- @param int_8 int
+function CDOTAGamerules:AddMinimapDebugPointForTeam( int_1, Vector_2, int_3, int_4, int_5, int_6, float_7, int_8 ) end
+
+---[[ CDOTAGamerules:BeginNightstalkerNight  Begin night stalker night. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:BeginNightstalkerNight( float_1 ) end
+
+---[[ CDOTAGamerules:BeginTemporaryNight  Begin temporary night. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:BeginTemporaryNight( float_1 ) end
+
+---[[ CDOTAGamerules:BotPopulate  Fills all the teams with bots if cheat mode is enabled. ]]
+-- @return void
+function CDOTAGamerules:BotPopulate(  ) end
+
+---[[ CDOTAGamerules:Defeated  Kills the ancient, etc. ]]
+-- @return void
+function CDOTAGamerules:Defeated(  ) end
+
+---[[ CDOTAGamerules:DidMatchSignoutTimeOut  true when we have waited some time after end of the game and not received signout ]]
+-- @return bool
+function CDOTAGamerules:DidMatchSignoutTimeOut(  ) end
+
+---[[ CDOTAGamerules:EnableCustomGameSetupAutoLaunch  Enabled (true) or disable (false) auto launch for custom game setup. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:EnableCustomGameSetupAutoLaunch( bool_1 ) end
+
+---[[ CDOTAGamerules:FinishCustomGameSetup  Indicate that the custom game setup phase is complete, and advance to the game. ]]
+-- @return void
+function CDOTAGamerules:FinishCustomGameSetup(  ) end
+
+---[[ CDOTAGamerules:ForceCreepSpawn  Spawn the next wave of creeps. ]]
+-- @return void
+function CDOTAGamerules:ForceCreepSpawn(  ) end
+
+---[[ CDOTAGamerules:ForceGameStart  Transition game state to DOTA_GAMERULES_STATE_GAME_IN_PROGRESS ]]
+-- @return void
+function CDOTAGamerules:ForceGameStart(  ) end
+
+---[[ CDOTAGamerules:GetCustomGameDifficulty  Returns the difficulty level of the custom game mode ]]
+-- @return int
+function CDOTAGamerules:GetCustomGameDifficulty(  ) end
+
+---[[ CDOTAGamerules:GetCustomGameTeamMaxPlayers  Get whether a team is selectable during game setup ]]
+-- @return int
+-- @param int_1 int
+function CDOTAGamerules:GetCustomGameTeamMaxPlayers( int_1 ) end
+
+---[[ CDOTAGamerules:GetDOTATime  (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time. ]]
+-- @return float
+-- @param bool_1 bool
+-- @param bool_2 bool
+function CDOTAGamerules:GetDOTATime( bool_1, bool_2 ) end
+
+---[[ CDOTAGamerules:GetDifficulty  Returns difficulty level of the custom game mode ]]
+-- @return int
+function CDOTAGamerules:GetDifficulty(  ) end
+
+---[[ CDOTAGamerules:GetDroppedItem  Gets the Xth dropped item ]]
+-- @return handle
+-- @param int_1 int
+function CDOTAGamerules:GetDroppedItem( int_1 ) end
+
+---[[ CDOTAGamerules:GetGameFrameTime  Returns the number of seconds elapsed since the last frame was renderered. This time doesn't count up when the game is paused ]]
+-- @return float
+function CDOTAGamerules:GetGameFrameTime(  ) end
+
+---[[ CDOTAGamerules:GetGameModeEntity  Get the game mode entity ]]
+-- @return handle
+function CDOTAGamerules:GetGameModeEntity(  ) end
+
+---[[ CDOTAGamerules:GetGameSessionConfigValue  Get a string value from the game session config (map options) ]]
+-- @return string
+-- @param string_1 string
+-- @param string_2 string
+function CDOTAGamerules:GetGameSessionConfigValue( string_1, string_2 ) end
+
+---[[ CDOTAGamerules:GetGameTime  Returns the number of seconds elapsed since map start. This time doesn't count up when the game is paused ]]
+-- @return float
+function CDOTAGamerules:GetGameTime(  ) end
+
+---[[ CDOTAGamerules:GetMatchID  Get the MatchID for this game. ]]
+-- @return uint64
+function CDOTAGamerules:GetMatchID(  ) end
+
+---[[ CDOTAGamerules:GetMatchSignoutComplete  Have we received the post match signout message that includes reward information ]]
+-- @return bool
+function CDOTAGamerules:GetMatchSignoutComplete(  ) end
+
+---[[ CDOTAGamerules:GetNianTotalDamageTaken  For New Bloom, get total damage taken by the Nian / Year Beast ]]
+-- @return int
+function CDOTAGamerules:GetNianTotalDamageTaken(  ) end
+
+---[[ CDOTAGamerules:GetPlayerCustomGameAccountRecord  (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session ]]
+-- @return table
+-- @param int_1 int
+function CDOTAGamerules:GetPlayerCustomGameAccountRecord( int_1 ) end
+
+---[[ CDOTAGamerules:GetStateTransitionTime  Get time remaining between state changes. ]]
+-- @return float
+function CDOTAGamerules:GetStateTransitionTime(  ) end
+
+---[[ CDOTAGamerules:GetTimeOfDay  Get the time of day ]]
+-- @return float
+function CDOTAGamerules:GetTimeOfDay(  ) end
+
+---[[ CDOTAGamerules:GetWeatherWindDirection  Get Weather Wind Direction Vector ]]
+-- @return Vector
+function CDOTAGamerules:GetWeatherWindDirection(  ) end
+
+---[[ CDOTAGamerules:IsCheatMode  Are cheats enabled on the server ]]
+-- @return bool
+function CDOTAGamerules:IsCheatMode(  ) end
+
+---[[ CDOTAGamerules:IsDaytime  Is it day time? ]]
+-- @return bool
+function CDOTAGamerules:IsDaytime(  ) end
+
+---[[ CDOTAGamerules:IsGamePaused  Returns whether the game is paused. ]]
+-- @return bool
+function CDOTAGamerules:IsGamePaused(  ) end
+
+---[[ CDOTAGamerules:IsHeroRespawnEnabled  Returns whether hero respawn is enabled. ]]
+-- @return bool
+function CDOTAGamerules:IsHeroRespawnEnabled(  ) end
+
+---[[ CDOTAGamerules:IsInBanPhase  Are we in the ban phase of hero pick? ]]
+-- @return bool
+function CDOTAGamerules:IsInBanPhase(  ) end
+
+---[[ CDOTAGamerules:IsItemInWhiteList  Query an item in the whitelist ]]
+-- @return bool
+-- @param string_1 string
+function CDOTAGamerules:IsItemInWhiteList( string_1 ) end
+
+---[[ CDOTAGamerules:IsNightstalkerNight  Is it night stalker night-time? ]]
+-- @return bool
+function CDOTAGamerules:IsNightstalkerNight(  ) end
+
+---[[ CDOTAGamerules:IsTemporaryNight  Is it temporarily night-time? ]]
+-- @return bool
+function CDOTAGamerules:IsTemporaryNight(  ) end
+
+---[[ CDOTAGamerules:LockCustomGameSetupTeamAssignment  Lock (true) or unlock (false) team assignemnt. If team assignment is locked players cannot change teams. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:LockCustomGameSetupTeamAssignment( bool_1 ) end
+
+---[[ CDOTAGamerules:MakeTeamLose  Makes the specified team lose ]]
+-- @return void
+-- @param int_1 int
+function CDOTAGamerules:MakeTeamLose( int_1 ) end
+
+---[[ CDOTAGamerules:NumDroppedItems  Returns the number of items currently dropped on the ground ]]
+-- @return int
+function CDOTAGamerules:NumDroppedItems(  ) end
+
+---[[ CDOTAGamerules:PlayerHasCustomGameHostPrivileges  Whether a player has custom game host privileges (shuffle teams, etc.) ]]
+-- @return bool
+-- @param handle_1 handle
+function CDOTAGamerules:PlayerHasCustomGameHostPrivileges( handle_1 ) end
+
+---[[ CDOTAGamerules:Playtesting_UpdateAddOnKeyValues  Updates custom hero, unit and ability KeyValues in memory with the latest values from disk ]]
+-- @return void
+function CDOTAGamerules:Playtesting_UpdateAddOnKeyValues(  ) end
+
+---[[ CDOTAGamerules:PrepareSpawners  Prepare Dota lane style spawners with a given interval ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:PrepareSpawners( float_1 ) end
+
+---[[ CDOTAGamerules:RemoveItemFromWhiteList  Remove an item from the whitelist ]]
+-- @return void
+-- @param string_1 string
+function CDOTAGamerules:RemoveItemFromWhiteList( string_1 ) end
+
+---[[ CDOTAGamerules:ResetDefeated  Restart after killing the ancient, etc. ]]
+-- @return void
+function CDOTAGamerules:ResetDefeated(  ) end
+
+---[[ CDOTAGamerules:ResetGameTime  Restart gametime from 0 ]]
+-- @return void
+function CDOTAGamerules:ResetGameTime(  ) end
+
+---[[ CDOTAGamerules:ResetToCustomGameSetup  Restart at custom game setup. ]]
+-- @return void
+function CDOTAGamerules:ResetToCustomGameSetup(  ) end
+
+---[[ CDOTAGamerules:ResetToHeroSelection  Restart the game at hero selection ]]
+-- @return void
+function CDOTAGamerules:ResetToHeroSelection(  ) end
+
+---[[ CDOTAGamerules:SendCustomMessage  Sends a message on behalf of a player. ]]
+-- @return void
+-- @param string_1 string
+-- @param int_2 int
+-- @param int_3 int
+function CDOTAGamerules:SendCustomMessage( string_1, int_2, int_3 ) end
+
+---[[ CDOTAGamerules:SendCustomMessageToTeam  Sends a message on behalf of a player to the specified team. ]]
+-- @return void
+-- @param string_1 string
+-- @param int_2 int
+-- @param int_3 int
+-- @param int_4 int
+function CDOTAGamerules:SendCustomMessageToTeam( string_1, int_2, int_3, int_4 ) end
+
+---[[ CDOTAGamerules:SetCreepMinimapIconScale  (flMinimapCreepIconScale) - Scale the creep icons on the minimap. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCreepMinimapIconScale( float_1 ) end
+
+---[[ CDOTAGamerules:SetCreepSpawningEnabled  Sets whether the regular Dota creeps spawn. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetCreepSpawningEnabled( bool_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameAccountRecordSaveFunction  (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table) ]]
+-- @return void
+-- @param handle_1 handle
+-- @param handle_2 handle
+function CDOTAGamerules:SetCustomGameAccountRecordSaveFunction( handle_1, handle_2 ) end
+
+---[[ CDOTAGamerules:SetCustomGameAllowBattleMusic  Sets a flag to enable/disable the default music handling code for custom games ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetCustomGameAllowBattleMusic( bool_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameAllowHeroPickMusic  Sets a flag to enable/disable the default music handling code for custom games ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetCustomGameAllowHeroPickMusic( bool_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameAllowMusicAtGameStart  Sets a flag to enable/disable the default music handling code for custom games ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetCustomGameAllowMusicAtGameStart( bool_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameDifficulty  Set the difficulty level of the custom game mode ]]
+-- @return void
+-- @param int_1 int
+function CDOTAGamerules:SetCustomGameDifficulty( int_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameEndDelay  Sets the game end delay. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCustomGameEndDelay( float_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameSetupAutoLaunchDelay  Set the amount of time to wait for auto launch. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCustomGameSetupAutoLaunchDelay( float_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameSetupRemainingTime  Set the amount of remaining time, in seconds, for custom game setup. 0 = finish immediately, -1 = wait forever ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCustomGameSetupRemainingTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameSetupTimeout  Setup (pre-gameplay) phase timeout. 0 = instant, -1 = forever (until FinishCustomGameSetup is called) ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCustomGameSetupTimeout( float_1 ) end
+
+---[[ CDOTAGamerules:SetCustomGameTeamMaxPlayers  Set whether a team is selectable during game setup ]]
+-- @return void
+-- @param int_1 int
+-- @param int_2 int
+function CDOTAGamerules:SetCustomGameTeamMaxPlayers( int_1, int_2 ) end
+
+---[[ CDOTAGamerules:SetCustomVictoryMessage  Sets the victory message. ]]
+-- @return void
+-- @param string_1 string
+function CDOTAGamerules:SetCustomVictoryMessage( string_1 ) end
+
+---[[ CDOTAGamerules:SetCustomVictoryMessageDuration  Sets the victory message duration. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetCustomVictoryMessageDuration( float_1 ) end
+
+---[[ CDOTAGamerules:SetEventMetadataCustomTable  Event-only ( table hMetadataTable ) ]]
+-- @return bool
+-- @param handle_1 handle
+function CDOTAGamerules:SetEventMetadataCustomTable( handle_1 ) end
+
+---[[ CDOTAGamerules:SetEventSignoutCustomTable  Event-only ( table hMetadataTable ) ]]
+-- @return bool
+-- @param handle_1 handle
+function CDOTAGamerules:SetEventSignoutCustomTable( handle_1 ) end
+
+---[[ CDOTAGamerules:SetFirstBloodActive  Sets whether First Blood has been triggered. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetFirstBloodActive( bool_1 ) end
+
+---[[ CDOTAGamerules:SetGameWinner  Makes the specified team win ]]
+-- @return void
+-- @param int_1 int
+function CDOTAGamerules:SetGameWinner( int_1 ) end
+
+---[[ CDOTAGamerules:SetGoldPerTick  Set the auto gold increase per timed interval. ]]
+-- @return void
+-- @param int_1 int
+function CDOTAGamerules:SetGoldPerTick( int_1 ) end
+
+---[[ CDOTAGamerules:SetGoldTickTime  Set the time interval between auto gold increases. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetGoldTickTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetHeroMinimapIconScale  (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetHeroMinimapIconScale( float_1 ) end
+
+---[[ CDOTAGamerules:SetHeroRespawnEnabled  Control if the normal DOTA hero respawn rules apply. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetHeroRespawnEnabled( bool_1 ) end
+
+---[[ CDOTAGamerules:SetHeroSelectPenaltyTime  Sets amount of penalty time before randoming a hero ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetHeroSelectPenaltyTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetHeroSelectionTime  Sets the amount of time players have to pick their hero. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetHeroSelectionTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetHideKillMessageHeaders  Sets whether the multikill, streak, and first-blood banners appear at the top of the screen. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetHideKillMessageHeaders( bool_1 ) end
+
+---[[ CDOTAGamerules:SetOverlayHealthBarUnit  Show this unit's health on the overlay health bar ]]
+-- @return void
+-- @param handle_1 handle
+-- @param int_2 int
+function CDOTAGamerules:SetOverlayHealthBarUnit( handle_1, int_2 ) end
+
+---[[ CDOTAGamerules:SetPostGameTime  Sets the amount of time players have between the game ending and the server disconnecting them. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetPostGameTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetPreGameTime  Sets the amount of time players have between picking their hero and game start. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetPreGameTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetRuneMinimapIconScale  (flMinimapRuneIconScale) - Scale the rune icons on the minimap. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetRuneMinimapIconScale( float_1 ) end
+
+---[[ CDOTAGamerules:SetRuneSpawnTime  Sets the amount of time between rune spawns. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetRuneSpawnTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetSafeToLeave  (bSafeToLeave) - Mark this game as safe to leave. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetSafeToLeave( bool_1 ) end
+
+---[[ CDOTAGamerules:SetSameHeroSelectionEnabled  When true, players can repeatedly pick the same hero. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetSameHeroSelectionEnabled( bool_1 ) end
+
+---[[ CDOTAGamerules:SetShowcaseTime  Sets the amount of time players have between the strategy phase and entering the pre-game phase. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetShowcaseTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetStartingGold  Set the starting gold amount. ]]
+-- @return void
+-- @param int_1 int
+function CDOTAGamerules:SetStartingGold( int_1 ) end
+
+---[[ CDOTAGamerules:SetStrategyTime  Sets the amount of time players have between the hero selection and entering the showcase phase. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetStrategyTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetTimeOfDay  Set the time of day. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetTimeOfDay( float_1 ) end
+
+---[[ CDOTAGamerules:SetTreeRegrowTime  Sets the tree regrow time in seconds. ]]
+-- @return void
+-- @param float_1 float
+function CDOTAGamerules:SetTreeRegrowTime( float_1 ) end
+
+---[[ CDOTAGamerules:SetUseBaseGoldBountyOnHeroes  Heroes will use the basic NPC functionality for determining their bounty, rather than DOTA specific formulas. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetUseBaseGoldBountyOnHeroes( bool_1 ) end
+
+---[[ CDOTAGamerules:SetUseCustomHeroXPValues  Allows heroes in the map to give a specific amount of XP (this value must be set). ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetUseCustomHeroXPValues( bool_1 ) end
+
+---[[ CDOTAGamerules:SetUseUniversalShopMode  When true, all items are available at as long as any shop is in range. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetUseUniversalShopMode( bool_1 ) end
+
+---[[ CDOTAGamerules:SetWeatherWindDirection  Set Weather Wind Direction Vector ]]
+-- @return void
+-- @param Vector_1 Vector
+function CDOTAGamerules:SetWeatherWindDirection( Vector_1 ) end
+
+---[[ CDOTAGamerules:SetWhiteListEnabled  Item whitelist functionality enable/disable ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTAGamerules:SetWhiteListEnabled( bool_1 ) end
+
+---[[ CDOTAGamerules:SpawnAndReleaseCreeps  Spawn and release the next creep wave from Dota lane style spawners. ]]
+-- @return void
+function CDOTAGamerules:SpawnAndReleaseCreeps(  ) end
+
+---[[ CDOTAGamerules:State_Get  Get the current Gamerules state ]]
+-- @return int
+function CDOTAGamerules:State_Get(  ) end
+
 ---[[ CDOTAPlayer:GetAssignedHero  Get the player's hero. ]]
 -- @return handle
 function CDOTAPlayer:GetAssignedHero(  ) end
@@ -4409,6 +4890,135 @@ function CDOTAPlayer:SetMusicStatus( nMusicStatus, flIntensity ) end
 -- @return void
 -- @param pszHeroName string
 function CDOTAPlayer:SetSelectedHero( pszHeroName ) end
+
+---[[ CDOTATutorial:AddBot  Add a computer controlled bot. ]]
+-- @return bool
+-- @param string_1 string
+-- @param string_2 string
+-- @param string_3 string
+-- @param bool_4 bool
+function CDOTATutorial:AddBot( string_1, string_2, string_3, bool_4 ) end
+
+---[[ CDOTATutorial:AddQuest  Add a quest to the quest log ]]
+-- @return void
+-- @param string_1 string
+-- @param int_2 int
+-- @param string_3 string
+-- @param string_4 string
+function CDOTATutorial:AddQuest( string_1, int_2, string_3, string_4 ) end
+
+---[[ CDOTATutorial:AddShopWhitelistItem  Add an item to the shop whitelist. ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:AddShopWhitelistItem( string_1 ) end
+
+---[[ CDOTATutorial:CompleteQuest  Complete a quest, ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:CompleteQuest( string_1 ) end
+
+---[[ CDOTATutorial:CreateLocationTask  Add a task to move to a specific location ]]
+-- @return void
+-- @param Vector_1 Vector
+function CDOTATutorial:CreateLocationTask( Vector_1 ) end
+
+---[[ CDOTATutorial:EnableCreepAggroViz  Alert the player when a creep becomes agro to their hero. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:EnableCreepAggroViz( bool_1 ) end
+
+---[[ CDOTATutorial:EnablePlayerOffscreenTip  Enable the tip to alert players how to find their hero. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:EnablePlayerOffscreenTip( bool_1 ) end
+
+---[[ CDOTATutorial:EnableTowerAggroViz  Alert the player when a tower becomes agro to their hero. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:EnableTowerAggroViz( bool_1 ) end
+
+---[[ CDOTATutorial:FinishTutorial  End the tutorial. ]]
+-- @return void
+function CDOTATutorial:FinishTutorial(  ) end
+
+---[[ CDOTATutorial:ForceGameStart  Force the start of the game. ]]
+-- @return void
+function CDOTATutorial:ForceGameStart(  ) end
+
+---[[ CDOTATutorial:GetTimeFrozen  Is our time frozen? ]]
+-- @return bool
+function CDOTATutorial:GetTimeFrozen(  ) end
+
+---[[ CDOTATutorial:IsItemInWhiteList  Is this item currently in the white list. ]]
+-- @return bool
+-- @param string_1 string
+function CDOTATutorial:IsItemInWhiteList( string_1 ) end
+
+---[[ CDOTATutorial:RemoveShopWhitelistItem  Remove an item from the shop whitelist. ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:RemoveShopWhitelistItem( string_1 ) end
+
+---[[ CDOTATutorial:SelectHero  Select a hero for the local player ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:SelectHero( string_1 ) end
+
+---[[ CDOTATutorial:SelectPlayerTeam  Select the team for the local player ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:SelectPlayerTeam( string_1 ) end
+
+---[[ CDOTATutorial:SetItemGuide  Set the current item guide. ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:SetItemGuide( string_1 ) end
+
+---[[ CDOTATutorial:SetOrModifyPlayerGold  Set gold amount for the tutorial player. (int) GoldAmount, (bool) true=Set, false=Modify ]]
+-- @return void
+-- @param int_1 int
+-- @param bool_2 bool
+function CDOTATutorial:SetOrModifyPlayerGold( int_1, bool_2 ) end
+
+---[[ CDOTATutorial:SetQuickBuy  Set players quick buy item. ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:SetQuickBuy( string_1 ) end
+
+---[[ CDOTATutorial:SetShopOpen  Set the shop open or closed. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:SetShopOpen( bool_1 ) end
+
+---[[ CDOTATutorial:SetTimeFrozen  Set if we should freeze time or not. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:SetTimeFrozen( bool_1 ) end
+
+---[[ CDOTATutorial:SetTutorialConvar  Set a tutorial convar ]]
+-- @return void
+-- @param string_1 string
+-- @param string_2 string
+function CDOTATutorial:SetTutorialConvar( string_1, string_2 ) end
+
+---[[ CDOTATutorial:SetTutorialUI  Set the UI to use a reduced version to focus attention to specific elements. ]]
+-- @return void
+-- @param int_1 int
+function CDOTATutorial:SetTutorialUI( int_1 ) end
+
+---[[ CDOTATutorial:SetWhiteListEnabled  Set if we should whitelist shop items. ]]
+-- @return void
+-- @param bool_1 bool
+function CDOTATutorial:SetWhiteListEnabled( bool_1 ) end
+
+---[[ CDOTATutorial:StartTutorialMode  Initialize Tutorial Mode ]]
+-- @return void
+function CDOTATutorial:StartTutorialMode(  ) end
+
+---[[ CDOTATutorial:UpgradePlayerAbility  Upgrade a specific ability for the local hero ]]
+-- @return void
+-- @param string_1 string
+function CDOTATutorial:UpgradePlayerAbility( string_1 ) end
 
 ---[[ CDOTAVoteSystem:StartVote  Starts a vote, based upon a table of parameters ]]
 -- @return void
@@ -9118,6 +9728,39 @@ function CSceneEntity:RemoveBroadcastTeamTarget( int_1 ) end
 -- @return void
 -- @param handle_1 handle
 function CSceneEntity:Start( handle_1 ) end
+
+---[[ CScriptHTTPRequest:Send  Send a HTTP request. ]]
+-- @return bool
+-- @param handle_1 handle
+function CScriptHTTPRequest:Send( handle_1 ) end
+
+---[[ CScriptHTTPRequest:SetHTTPRequestAbsoluteTimeoutMS  Set the total timeout on the request. ]]
+-- @return bool
+-- @param unsigned_1 unsigned
+function CScriptHTTPRequest:SetHTTPRequestAbsoluteTimeoutMS( unsigned_1 ) end
+
+---[[ CScriptHTTPRequest:SetHTTPRequestGetOrPostParameter  Set a POST or GET parameter on the request. ]]
+-- @return bool
+-- @param string_1 string
+-- @param string_2 string
+function CScriptHTTPRequest:SetHTTPRequestGetOrPostParameter( string_1, string_2 ) end
+
+---[[ CScriptHTTPRequest:SetHTTPRequestHeaderValue  Set a header value on the request. ]]
+-- @return bool
+-- @param string_1 string
+-- @param string_2 string
+function CScriptHTTPRequest:SetHTTPRequestHeaderValue( string_1, string_2 ) end
+
+---[[ CScriptHTTPRequest:SetHTTPRequestNetworkActivityTimeout  Set the network timeout on the request - this timer is reset when any data is received. ]]
+-- @return bool
+-- @param unsigned_1 unsigned
+function CScriptHTTPRequest:SetHTTPRequestNetworkActivityTimeout( unsigned_1 ) end
+
+---[[ CScriptHTTPRequest:SetHTTPRequestRawPostBody  Set the literal body of a post - invalid after setting a post parameter. ]]
+-- @return bool
+-- @param string_1 string
+-- @param string_2 string
+function CScriptHTTPRequest:SetHTTPRequestRawPostBody( string_1, string_2 ) end
 
 ---[[ CScriptHeroList:GetAllHeroes  Returns all the heroes in the world ]]
 -- @return table
