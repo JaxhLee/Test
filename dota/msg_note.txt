@@ -1,0 +1,136 @@
+
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 137 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 250 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455722111775423>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 131 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 250 bytes
+[GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+[GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 322 bytes
+] cjfj--up-----------------------
+[GCClient] Send msg 7040 (k_EMsgGCPracticeLobbyLeave), 8 bytes
+[GCClient] Recv msg 25 (k_ESOMsg_CacheUnsubscribed), 21 bytes
+[SOCache] CGCSOCacheUnsubscribedJob(owner=<Lobby:26455722111775423>)
+WriteSteamRemoteStorageFileAsync( "cfg/chat.cfg" ) -> at 144.748
+[GCClient] Send msg 7272 (k_EMsgGCLeaveChatChannel), 12 bytes
+CAsyncWriteInProgress::OnComplete( "cfg/chat.cfg" ) -> Success at 144.774
+[GCClient] Recv msg 7014 (k_EMsgGCOtherLeftChannel), 26 bytes
+] tcfj--up-----------------------------
+[GCClient] Send msg 7470 (k_EMsgGCQuickJoinCustomLobby), 424 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 247 bytes
+[GCClient] Recv msg 7471 (k_EMsgGCQuickJoinCustomLobbyResponse), 10 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455722112057268>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResp
+
+
+-- 将开始游戏房间转密码房间
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 131 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 253 bytes
+-- 将开始游戏房间转密码房间
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 134 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 253 bytes
+-- 创建公开房间 ，
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 142 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 255 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455722113032810>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+
+-- 退出房间
+[GCClient] Send msg 7040 (k_EMsgGCPracticeLobbyLeave), 8 bytes
+[GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+[GCClient] Recv msg 25 (k_ESOMsg_CacheUnsubscribed), 21 bytes
+[SOCache] CGCSOCacheUnsubscribedJob(owner=<Lobby:26455722113032810>)
+WriteSteamRemoteStorageFileAsync( "cfg/chat.cfg" ) -> at 433.418
+[GCClient] Send msg 7272 (k_EMsgGCLeaveChatChannel), 12 bytes
+CAsyncWriteInProgress::OnComplete( "cfg/chat.cfg" ) -> Success at 433.442
+[GCClient] Send msg 8020 (k_EMsgClientToGCFriendsPlayedCustomGameRequest), 23 bytes
+[GCClient] Recv msg 7014 (k_EMsgGCOtherLeftChannel), 26 bytes
+[GCClient] Recv msg 8021 (k_EMsgGCToClientFriendsPlayedCustomGameResponse), 65 bytes
+[GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 322 bytes
+
+-- 创建私人房间
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 152 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 260 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455722113719766>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 141 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 260 bytes
+
+----------------
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 286 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 260 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455723174362721>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 141 bytes
+[GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 260 bytes
+
+
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 276 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 250 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455723114288249>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+[GCClient] Send msg 7046 (k_EMsgGCPracticeLobbySetDetails), 131 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 250 bytes
+
+-- 点击进入地图
+
+[GCClient] Send msg 8048 (k_EMsgDOTAChatGetMemberCount), 39 bytes
+[GCClient] Send msg 8020 (k_EMsgClientToGCFriendsPlayedCustomGameRequest), 23 bytes
+[GCClient] Recv msg 8049 (k_EMsgDOTAChatGetMemberCountResponse), 39 bytes
+[GCClient] Recv msg 8021 (k_EMsgGCToClientFriendsPlayedCustomGameResponse), 43 bytes
+[GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+[GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 322 bytes
+
+-- 点加入聊天
+
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 22 bytes
+WriteSteamRemoteStorageFileAsync( "cfg/chat.cfg" ) -> at 776.796
+CAsyncWriteInProgress::OnComplete( "cfg/chat.cfg" ) -> Success at 776.821
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 40 bytes
+
+-- 发送聊天信息
+
+[GCClient] Send msg 7273 (k_EMsgGCChatMessage), 33 bytes
+[GCClient] Recv msg 7102 (k_EMsgGCPopup), 10 bytes
+
+-- 浏览公开房间
+Send msg 8140 (k_EMsgClientToGCPublishUserStat), 12 bytes
+
+-- 寻找私人房间
+
+Send msg 7042 (k_EMsgGCPracticeLobbyList), 22 bytes
+Recv msg 7043 (k_EMsgGCPracticeLobbyListResponse), 296 bytes
+
+-- 开始
+] dota_launch_custom_game dota_imba dota
+Logged on to Steam, set GC connection state to NO_SESSION
+Send msg 4007 (k_EMsgGCServerHello), 24 bytes
+OnSteamServersConnected()
+Recv msg 4005 (k_EMsgGCServerWelcome), 11 bytes
+Received server welcome from GC.
+Recv msg 24 (k_ESOMsg_CacheSubscribed), 42 bytes
+Recv msg 24 (k_ESOMsg_CacheSubscribed), 44 bytes
+Send msg 4508 (k_EMsgGCGameServerInfo), 85 bytes
+Send msg 4508 (k_EMsgGCGameServerInfo), 85 bytes
+Send msg 8330 (k_EMsgServerToGCRequestPlayerRecentAccomplishments), 25 bytes
+Recv msg 8331 (k_EMsgServerToGCRequestPlayerRecentAccomplishmentsResponse), 82 bytes
+
+
+-- 开始自定义地图
+[GCClient] Send msg 7470 (k_EMsgGCQuickJoinCustomLobby), 418 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 247 bytes
+[GCClient] Recv msg 7471 (k_EMsgGCQuickJoinCustomLobbyResponse), 10 bytes
+[SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:26455723137893046>) [in cache]
+[GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+[GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 72 bytes
+
+
+[GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 93 bytes
+[GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 181 bytes

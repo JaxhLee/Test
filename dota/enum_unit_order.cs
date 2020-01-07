@@ -1,19 +1,19 @@
--- Orders from the local player
--- - takes a single arguments object that supports:
--- dotaunitorder_t OrderType,
--- ent_index TargetIndex,
--- vector Position,
--- ent_index AbilityIndex,
--- OrderIssuer_t OrderIssuer,
--- ent_index UnitIndex,
--- OrderQueueBehavior_t QueueBehavior,
--- bool ShowEffects.
+// -- Orders from the local player
+// -- - takes a single arguments object that supports:
+// -- dotaunitorder_t OrderType,
+// -- ent_index TargetIndex,
+// -- vector Position,
+// -- ent_index AbilityIndex,
+// -- OrderIssuer_t OrderIssuer,
+// -- ent_index UnitIndex,
+// -- OrderQueueBehavior_t QueueBehavior,
+// -- bool ShowEffects.
 
--- DOTA_ORDER_QUEUE_ALWAYS
--- DOTA_ORDER_QUEUE_DEFAULT
--- DOTA_ORDER_QUEUE_NEVER
+// -- DOTA_ORDER_QUEUE_ALWAYS
+// -- DOTA_ORDER_QUEUE_DEFAULT
+// -- DOTA_ORDER_QUEUE_NEVER
 
-dotaunitorder_t = {
+enum dotaunitorder_t {
 	DOTA_UNIT_ORDER_NONE = 0;
 	DOTA_UNIT_ORDER_MOVE_TO_POSITION = 1;
 	DOTA_UNIT_ORDER_MOVE_TO_TARGET = 2;
