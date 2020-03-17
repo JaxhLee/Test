@@ -1,0 +1,21 @@
+http://47.111.97.36/pay/pay_result/success.php?usd=1&ticket=2
+
+
+http://47.111.97.36/pay/payssion/return.php?transaction_id=T228755488043503&pm_id=payssion_test&state=cancelled&amount=4.00&currency=USD&order_id=836-1582877762-19454-9999&notify_sig=ea05a484ef297092bc26d48469de1c93
+
+
+http://47.111.97.36/pay/payssion/return.php?transaction_id=T228755488043503&pm_id=payssion_test&state=failed&amount=4.00&currency=USD&order_id=836-1582877762-19454-9999&notify_sig=ea05a484ef297092bc26d48469de1c93
+
+return 页 $_GET 参数
+{
+	["transaction_id"] => string(16) "T228842247084372"
+	["pm_id"]=> string(13) "payssion_test"
+	["state"]=> string(9) "completed"
+	["amount"]=> string(4) "1.00"
+	["currency"]=> string(3) "USD"
+	["order_id"]=> string(25) "489-1582886437-23016-9999"
+	["notify_sig"]=> string(32) "611478c24baa33b6edfcf19fc4f12917"
+}
+
+
+https://to-do.microsoft.com/sharing?InvitationToken=tCASWh6QBqFoo0yv6zyN1w4Gqe0oY7J-kpYhE1T0qxXDlEo1q8WuwwOAU4TRVFsc8

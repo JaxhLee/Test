@@ -1,0 +1,50 @@
+{
+  "log": {
+    "access": "/jaxh/temp/log/v2r.log",
+    "error": "/jaxh/temp/log/v2r_e.log",
+    "loglevel": "info"
+  },
+  "inbounds": [
+    {
+      "port": 829,
+      "listen": "127.0.0.1",
+      "tag": "jo",
+      "sniffing": {
+        "enabled": false,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "27848739-7e62-4138-9fd3-098a63964b6b",
+            "level": 0,
+            "alterId": 4,
+            "email": "love@v2ray.com"
+          }
+        ],
+        "disableInsecureEncryption": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ],
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "blocked"
+      }
+    ]
+  }
+}

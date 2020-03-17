@@ -6,23 +6,23 @@
 local setmetatable = setmetatable
 
 ---@class list
-local list = {}
-list.__index = list
+local public = {}
+public.__index = public
 
-function list:new()
+function public:new()
 	local t = {length = 0, _prev = 0, _next = 0}
 	t._prev = t
 	t._next = t
-	return setmetatable(t, list)
+	return setmetatable(t, public)
 end
 
-function list:clear()
+function public:clear()
 	self._next = self
 	self._prev = self
 	self.length = 0
 end
 
-function list:push(value)
+function public:push(value)
 	--assert(value)
 	local node = {value = value, _prev = 0, _next = 0, removed = false}
 
@@ -35,7 +35,7 @@ function list:push(value)
 	return node
 end
 
-function list:pushnode(node)
+function public:pushnode(node)
 	if not node.removed then return end
 
 	self._prev._next = node
@@ -46,13 +46,13 @@ function list:pushnode(node)
 	self.length = self.length + 1
 end
 
-function list:pop()
+function public:pop()
 	local _prev = self._prev
 	self:remove(_prev)
 	return _prev.value
 end
 
-function list:unshift(v)
+function public:unshift(v)
 	local node = {value = v, _prev = 0, _next = 0, removed = false}
 
 	self._next._prev = node
@@ -64,13 +64,13 @@ function list:unshift(v)
 	return node
 end
 
-function list:shift()
+function public:shift()
 	local _next = self._next
 	self:remove(_next)
 	return _next.value
 end
 
-function list:remove(iter)
+function public:remove(iter)
 	if iter.removed then return end
 
 	local _prev = iter._prev
@@ -82,7 +82,7 @@ function list:remove(iter)
 	iter.removed = true
 end
 
-function list:find(v, iter)
+function public:find(v, iter)
 	iter = iter or self
 
 	repeat
@@ -96,7 +96,7 @@ function list:find(v, iter)
 	return nil
 end
 
-function list:findlast(v, iter)
+function public:findlast(v, iter)
 	iter = iter or self
 
 	repeat
@@ -110,7 +110,7 @@ function list:findlast(v, iter)
 	return nil
 end
 
-function list:next(iter)
+function public:next(iter)
 	local _next = iter._next
 	if _next ~= self then
 		return _next, _next.value
@@ -119,7 +119,7 @@ function list:next(iter)
 	return nil
 end
 
-function list:prev(iter)
+function public:prev(iter)
 	local _prev = iter._prev
 	if _prev ~= self then
 		return _prev, _prev.value
@@ -128,7 +128,7 @@ function list:prev(iter)
 	return nil
 end
 
-function list:erase(v)
+function public:erase(v)
 	local iter = self:find(v)
 
 	if iter then
@@ -136,7 +136,7 @@ function list:erase(v)
 	end
 end
 
-function list:insert(v, iter)
+function public:insert(v, iter)
 	if not iter then
 		return self:push(v)
 	end
@@ -156,26 +156,26 @@ function list:insert(v, iter)
 	return node
 end
 
-function list:head()
+function public:head()
 	return self._next.value
 end
 
-function list:tail()
+function public:tail()
 	return self._prev.value
 end
 
-function list:clone()
-	local t = list:new()
+function public:clone()
+	local t = public:new()
 
-	for i, v in list.next, self, self do
+	for i, v in public.next, self, self do
 		t:push(v)
 	end
 
 	return t
 end
 
-ilist = function(_list) return list.next, _list, _list end
-rilist = function(_list) return list.prev, _list, _list end
+ilist = function(_list) return public.next, _list, _list end
+rilist = function(_list) return public.prev, _list, _list end
 
-setmetatable(list, {__call = list.new})
-return list
+setmetatable(public, {__call = public.new})
+return public

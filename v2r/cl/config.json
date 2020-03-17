@@ -1,0 +1,59 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 1080,
+      "listen": "127.0.0.1",
+      "tag": "socks-inbound",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": "127.0.0.1"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "sendThrough": "0.0.0.0",
+      "protocol": "vmess",
+      "setting": {
+        "vnext": [
+          {
+            "address": "jaxh.cc",
+            "port": 829,
+            "users": [
+              {
+                "id": "27848739-7e62-4138-9fd3-098a63964b6b",
+                "level": 0,
+                "alterId": 4,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "tag": "jo",
+      "streamSettings": {},
+      "mux": {}
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct",
+      "settings": {}
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPOnDemand",
+    "rules": [
+      {
+        "type": "field",
+        "domain": [
+          "geosite:cn"
+        ]
+      }
+    ]
+  }
+}
