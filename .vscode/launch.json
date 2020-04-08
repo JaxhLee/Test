@@ -25,6 +25,24 @@
             "outFiles": [
                 "${workspaceFolder}/ts/*.js"
             ]
+        },
+        {
+            //"debugServer": 4711, // Uncomment for debugging the adapter
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9876,
+            "log": true
+        },
+        {
+            //"debugServer": 4711, // Uncomment for debugging the adapter
+            "name": "Launch php",
+            "request": "launch",
+            "type": "php",
+            "port": 9876,
+            "program": "${workspaceRoot}/php/main.php",
+            "cwd": "${workspaceRoot}/php",
+            "externalConsole": false
         }
     ]
 }

@@ -1,7 +1,1 @@
-{
-	"less.compile": {
-		"compress": false,
-		"sourceMap": true,
-		"out": false
-	}
-}
+{}
