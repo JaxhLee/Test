@@ -1,1 +1,5 @@
-{}
+{
+	"tss-less.compile": {
+		"compress": false
+	}
+}

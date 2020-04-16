@@ -6364,7 +6364,7 @@ function CDOTA_BaseNPC:PlayVCD(pVCD) end
 --- @return bool
 function CDOTA_BaseNPC:ProvidesVision() end
 
----[[ CDOTA_BaseNPC:Purge  (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions ]]
+---[[ CDOTA_BaseNPC:Purge  (bool RemovePositiveBuffs, bool RemoveDebuffs, bool Buffs Created This Frame Only, bool RemoveStuns, bool RemoveExceptions ]]
 --- @return void
 --- @param bRemovePositiveBuffs bool
 --- @param bRemoveDebuffs bool
