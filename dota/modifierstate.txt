@@ -40,3 +40,11 @@ MODIFIER_STATE_TRUESIGHT_IMMUNE (33)
 MODIFIER_STATE_UNSELECTABLE (14)
 MODIFIER_STATE_UNSLOWABLE (38)
 MODIFIER_STATE_UNTARGETABLE (34)
+
+
+puck_1,法力追踪球,ability_lua,abilities/tower/puck/puck_1,puck_illusory_orb,5,3,5,,,,,DOTA_ABILITY_BEHAVIOR_PASSIVE,DOTA_UNIT_TARGET_TEAM_ENEMY,DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC,base,基础技能,,,,max_count,damage_target_current_mana_pct,damage_maximum_caster_mana_pct,fire_cooldown,roaming_seconds_per_rotation,roaming_radius,search_enemy_radius,orb_speed
+puck_2,法力汹涌,ability_lua,abilities/tower/puck/puck_2,puck_dream_coil,3,,,,,,,DOTA_ABILITY_BEHAVIOR_PASSIVE,,,base,,,,,bonus_maximum_mana,hit_absorb_mana
+puck_3,精灵闪烁,ability_lua,abilities/tower/puck/puck_3,puck_waning_rift,3,0.5,,50,300,200,,DOTA_ABILITY_BEHAVIOR_PASSIVE,DOTA_UNIT_TARGET_TEAM_ENEMY,DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC,base,,,,,restore_mana,damage_radius,silenced_duration
+
+
+damage_maximum_caster_mana_pct

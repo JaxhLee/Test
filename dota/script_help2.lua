@@ -671,7 +671,7 @@ function GetWorldMaxY() end
 --- @return float
 function GetWorldMinX() end
 
----[[ GetWorldMinY  Gets the world's minimum Y position. ]]
+---[[ GetWorldMinY  Gets the world's _)mum Y position. ]]
 --- @return float
 function GetWorldMinY() end
 
