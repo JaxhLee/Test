@@ -8,7 +8,7 @@
   * Target Entity: 选择触发器实体 名字
   * Target Input: 选择 CallScriptFunction
   * Parameter: 填入要调用方法的名字
-  * 在entity属性栏填入文件名。相对路径，如 vscript\test\trigger.lua, 填 test\trigger.lua
+  * 在entity属性栏填入文件名。相对路径，如 vscript/test/trigger.lua, 填 test/trigger.lua
   * 脚本写要调用的方法，例如：
 
   ```
