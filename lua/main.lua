@@ -1,1 +1,2 @@
-print(tonumber("22"))
+local t = {[2] = nil}
+print(t[2])

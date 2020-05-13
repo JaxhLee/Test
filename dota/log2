@@ -2,3 +2,5 @@ local iTeam = PlayerData:GetPlayerTeamID(hParent.Spawner_spawnerPlayerID)
 local hDoor = Entities:FindByName(nil, iTeam .. '_Enemy_Path_A_2')
 
 local hDoor = Entities:FindByName(nil, iTeam .. '_Enemy_Path_A_2')
+
+"abilities/special_abilities/"&技能名

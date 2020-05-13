@@ -33,3 +33,6 @@
 	end
   ```
   ok, 制作完成
+
+# 显示使用的粒子效果log
+cl_particle_log_creates 1
