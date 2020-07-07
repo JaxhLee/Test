@@ -1,3 +1,4 @@
+正常攻击
 on attack start
 on attack record
 on attack
@@ -6,12 +7,13 @@ on attack attacked
 on attack record destroy
 on attack finished
 
-
+攻击取消
 on attack start
 on attack record
 on attack cancled
 on attack record destroy
 
+事件
 MODIFIER_EVENT_ON_ATTACK_START,		OnAttackStart
 MODIFIER_EVENT_ON_ATTACK_RECORD,	OnAttackRecord
 

@@ -1,0 +1,185 @@
+**** Unable to localize '#LoadingTip_8' on panel ''
+CDOTAGamerules:Pause = false PlayerId=0 fUnpauseDelay=0.00 fPauseDelay=3.00
+UpdateCommonNetTable = player_card_selection_list
+{"0":{"1":"puck","2":"ogre_magi","3":"satyr_spawn_a"}}
+UpdateCommonNetTable = player_card_selection_list
+{"0":{}}
+UpdateNetTable = hand_cards_hero
+{"0":{"1":{"iGold":100,"iLevel":1,"sCardName":"ogre_magi","iCardID":1,"tItems":{}}}}
+Unknown Damage type during parse! (Physical)
+Unknown Damage type during parse! (Physical)
+ScriptVmStringFromVariant failed to unpack parameter variant type 31
+ScriptVmStringFromVariant failed to unpack parameter variant type 31
+UpdateNetTable = hand_cards_hero
+{"0":{}}
+**** Unable to localize '#LoadingTip_7' on panel ''
+[Lua Memory]  3509.578 KB  3.427 MB
+[Hashtable Count]  0
+[Thinker Count]  2
+**** Unable to localize '#LoadingTip_11' on panel ''
+**** Panel CardContainer_ssr has fill-parent-flow for width, but isn't in a flowing right layout
+**** Panel CardContainer_sr has fill-parent-flow for width, but isn't in a flowing right layout
+**** Panel CardContainer_r has fill-parent-flow for width, but isn't in a flowing right layout
+**** Panel CardContainer_n has fill-parent-flow for width, but isn't in a flowing right layout
+***** OUT OF MEMORY! /+/ attempted allocation size: 5592423 ****
+ERROR! D3D call failed! hr = E_OUTOFMEMORY ( D3D11Device()->CreateTexture2D( &desc, bImmutable ? pSubResource : NULL, ( ID3D11Texture2D ** ) &pDx11Texture ) )
+*** Run with -dx11debug to see native D3D errors!
+Primary SBH Highest Usage: 536,870,912 bytes
+XboxDVRCheck: AllowGameDVR = 0x00000001 (e0x00000006)
+XboxDVRCheck: AppCaptureEnabled = 0x00000000 (e0x00000000)
+XboxDVRCheck: GameDVR_Enabled = 0x00000000 (e0x00000000)
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+Texture missing shader resource view - returning error texture in CTextureManagerDx11::GetResourceView
+ERROR! D3D call failed! hr = E_OUTOFMEMORY ( D3D11Device()->CreateTexture2D( &desc, bImmutable ? pSubResource : NULL, ( ID3D11Texture2D ** ) &pDx11Texture ) )
+*** Run with -dx11debug to see native D3D errors!
+
+
+
+
+
+
+
+
+
+333
+157 / 65536
+paneltype	Label
+rememberchildfocus	false
+html	false
+text	157 / 65536
+style	{}
+actualuiscale_x	1.111111044883728
+actualuiscale_y	1.111111044883728
+scrolloffset_x	0
+scrolloffset_y	0
+actualyoffset	2
+actualxoffset	-76
+actuallayoutheight	28
+actuallayoutwidth	369
+desiredlayoutheight	28
+desiredlayoutwidth	369
+contentheight	28
+contentwidth	110
+layoutfile	panorama\layout\hud\dota_hud_health_mana.xml
+id	ManaLabel
+selectionpos_y	null
+selectionpos_x	null
+tabindex	null
+hittestchildren	true
+hittest	false
+inputnamespace
+defaultfocus
+checked	false
+enabled	true
+visible	true
+IsValid	function IsValid()
+AddClass	function AddClass()
+RemoveClass	function RemoveClass()
+BHasClass	function BHasClass()
+BAscendantHasClass	function BAscendantHasClass()
+SetHasClass	function SetHasClass()
+ToggleClass	function ToggleClass()
+SwitchClass	function SwitchClass()
+TriggerClass	function TriggerClass()
+ClearPanelEvent	function ClearPanelEvent()
+SetDraggable	function SetDraggable()
+IsDraggable	function IsDraggable()
+GetChildCount	function GetChildCount()
+GetChild	function GetChild()
+GetChildIndex	function GetChildIndex()
+Children	function Children()
+FindChildrenWithClassTraverse	function FindChildrenWithClassTraverse()
+GetParent	function GetParent()
+SetParent	function SetParent()
+FindChild	function FindChild()
+FindChildTraverse	function FindChildTraverse()
+FindChildInLayoutFile	function FindChildInLayoutFile()
+FindPanelInLayoutFile	function FindPanelInLayoutFile()
+RemoveAndDeleteChildren	function RemoveAndDeleteChildren()
+MoveChildBefore	function MoveChildBefore()
+MoveChildAfter	function MoveChildAfter()
+GetPositionWithinWindow	function GetPositionWithinWindow()
+ApplyStyles	function ApplyStyles()
+ClearPropertyFromCode	function ClearPropertyFromCode()
+DeleteAsync	function DeleteAsync()
+BIsTransparent	function BIsTransparent()
+BAcceptsInput	function BAcceptsInput()
+BAcceptsFocus	function BAcceptsFocus()
+SetFocus	function SetFocus()
+UpdateFocusInContext	function UpdateFocusInContext()
+BHasHoverStyle	function BHasHoverStyle()
+SetAcceptsFocus	function SetAcceptsFocus()
+SetDisableFocusOnMouseDown	function SetDisableFocusOnMouseDown()
+BHasKeyFocus	function BHasKeyFocus()
+SetScrollParentToFitWhenFocused	function SetScrollParentToFitWhenFocused()
+BScrollParentToFitWhenFocused	function BScrollParentToFitWhenFocused()
+IsSelected	function IsSelected()
+BHasDescendantKeyFocus	function BHasDescendantKeyFocus()
+BLoadLayout	function BLoadLayout()
+BLoadLayoutFromString	function BLoadLayoutFromString()
+LoadLayoutFromStringAsync	function LoadLayoutFromStringAsync()
+LoadLayoutAsync	function LoadLayoutAsync()
+BLoadLayoutSnippet	function BLoadLayoutSnippet()
+BCreateChildren	function BCreateChildren()
+SetTopOfInputContext	function SetTopOfInputContext()
+SetDialogVariable	function SetDialogVariable()
+SetDialogVariableInt	function SetDialogVariableInt()
+SetDialogVariableTime	function SetDialogVariableTime()
+ScrollToTop	function ScrollToTop()
+ScrollToBottom	function ScrollToBottom()
+ScrollToLeftEdge	function ScrollToLeftEdge()
+ScrollToRightEdge	function ScrollToRightEdge()
+ScrollParentToMakePanelFit	function ScrollParentToMakePanelFit()
+BCanSeeInParentScroll	function BCanSeeInParentScroll()
+GetAttributeInt	function GetAttributeInt()
+GetAttributeString	function GetAttributeString()
+GetAttributeUInt32	function GetAttributeUInt32()
+SetAttributeInt	function SetAttributeInt()
+SetAttributeString	function SetAttributeString()
+SetAttributeUInt32	function SetAttributeUInt32()
+SetInputNamespace	function SetInputNamespace()
+RegisterForReadyEvents	function RegisterForReadyEvents()
+BReadyForDisplay	function BReadyForDisplay()
+SetReadyForDisplay	function SetReadyForDisplay()
+SetPositionInPixels	function SetPositionInPixels()
+Data	function Data()
+SetPanelEvent	function SetPanelEvent()
+RunScriptInPanelContext	function RunScriptInPanelContext()

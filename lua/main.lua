@@ -1,5 +1,1 @@
-try{
-	print(111)
-}catch{
-
-}
+print(tonumber("22"))

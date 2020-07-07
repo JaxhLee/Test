@@ -463,7 +463,39 @@ basher_tested	false
 distance	0
 new_pos	Vector 0000000000AFB020 [0.000000 0.000000 0.000000]
 process_procs	true
-
+----------------------------------------------------------------------------------------------------
+MODIFIER_EVENT_ON_ATTACKED OnAttacked
+new_pos	Vector 0000000001208200 [0.000000 0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+target	table: 0x0116a260
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	0
+ignore_invis	false
+attacker	table: 0x001d9608
+ranged_attack	false
+record	8
+sange_amp_applied	false
+do_not_consume	false
+damage_type	0
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+----------------------------------------------------------------------------------------------------
 order_type -> DOTA_UNIT_ORDER_CAST_POSITION (5)
 new_pos	Vector 0000000000763EA0 [-6047.280762 -6142.726563 384.000000]
 process_procs	true
@@ -549,6 +581,40 @@ original_damage	0
 gain	0
 target	table: 0x005030a0
 basher_tested	false
+----------------------------------------------------------------------------------------------------
+MODIFIER_PROPERTY_AVOID_DAMAGE GetModifierAvoidDamage
+new_pos	Vector 0000000000737BB0 [0.000000 -1598.416016 0.000000]
+process_procs	true
+order_type	0
+activity	-1
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+sange_amp_applied	false
+fail_type	0
+damage_category	0
+reincarnate	false
+locket_amp_applied	false
+distance	0
+gain	0
+attacker	table: 0x00ba8870
+ranged_attack	false
+record	48
+heart_regen_applied	false
+do_not_consume	false
+damage_type	1
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+cost	0
+inflictor	table: 0x0083dda8
+damage_flags	16777216
+original_damage	5
+ignore_invis	false
+damage	4.8076920509338
+basher_tested	false
+target	table: 0x003f7568
+
 ---------------------------------------------------------------------
 CreateLinearProjectile params:
 Ability,
@@ -575,18 +641,18 @@ bDeleteOnHit
 ---------------------------------------------------------------------
 CreateTrackingProjectile:
 Ability,
-Source,
+Source,						// caster
 Target,
 EffectName,
 iMoveSpeed,
 vSourceLoc,
 iSourceAttachment,
-bProvidesVision, // 提供视野
+bProvidesVision, 			// 提供视野
 iVisionTeamNumber,
 iVisionRadius,
-bDrawsOnMinimap, // 小地图绘制
-bDodgeable, // 可躲避
+bDrawsOnMinimap, 			// 小地图绘制
+bDodgeable, 				// 可躲避
 bIsAttack,
 bVisibleToEnemies,
 bReplaceExisting,
-flExpireTime
+flExpireTime 				// 到期时间
