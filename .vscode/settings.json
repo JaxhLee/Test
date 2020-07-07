@@ -1,7 +1,5 @@
 {
-	"less.compile": {
-		"compress": false,
-		"sourceMap": true,
-		"out": false
+	"tss-less.compile": {
+		"compress": false
 	}
 }

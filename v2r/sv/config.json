@@ -1,32 +1,14 @@
 {
-  "log": {
-    "access": "/jaxh/temp/log/v2r.log",
-    "error": "/jaxh/temp/log/v2r_e.log",
-    "loglevel": "info"
-  },
   "inbounds": [
     {
-      "port": 829,
-      "listen": "127.0.0.1",
-      "tag": "jo",
-      "sniffing": {
-        "enabled": false,
-        "destOverride": [
-          "http",
-          "tls"
-        ]
-      },
+      "port": 829, // 服务器监听端口，必须和上面的一样
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "27848739-7e62-4138-9fd3-098a63964b6b",
-            "level": 0,
-            "alterId": 4,
-            "email": "love@v2ray.com"
+            "id": "6855af05-29c0-4e94-9bc7-fc20e32fd937"
           }
-        ],
-        "disableInsecureEncryption": true
+        ]
       }
     }
   ],
@@ -35,16 +17,5 @@
       "protocol": "freedom",
       "settings": {}
     }
-  ],
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "blocked"
-      }
-    ]
-  }
+  ]
 }
