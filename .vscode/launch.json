@@ -19,11 +19,14 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch TS",
-            "program": "${workspaceFolder}/ts/main.ts",
-            "preLaunchTask": "buildTS",
+            "name": "运行 main.ts",
+            // "skipFiles": [
+            // 	"<node_internals>/**"
+            // ],
+            "program": "${workspaceFolder}\\ts\\main.ts",
+            "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
-                "${workspaceFolder}/ts/*.js"
+                "${workspaceFolder}/**/*.js"
             ]
         },
         {

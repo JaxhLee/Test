@@ -34,5 +34,22 @@
   ```
   ok, 制作完成
 
-# 显示使用的粒子效果log
-cl_particle_log_creates 1
+# Console
+使用`bind [key] [command]`将命令绑定到键。例如：`bind k dota_dev hero_teleport`执行dota_dev
+
+* 显示使用的粒子效果log
+`cl_particle_log_creates 1`
+
+* 显示光照性能
+`r_deferred_simple_light 2`
+
+* 显示导航网格
+`dota_dev dota_gridnav_show`  
+“ 0”-关  
+“ 1”-基本剪辑  
+“ 2”-英雄夹  
+“ 3”-生物剪辑  
+bind 这个命令切换 `incrementvar dota_gridnav_show 0 1 1`
+
+* 指示战争迷雾
+`fow_client_debug 1`

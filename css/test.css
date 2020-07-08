@@ -1,4 +1,15 @@
-a {
-  width: 10px;
-  height: 10px;
+#a.Count5 {
+  width: 500px;
+}
+#a.Count4 {
+  width: 400px;
+}
+#a.Count3 {
+  width: 300px;
+}
+#a.Count2 {
+  width: 200px;
+}
+#a.Count1 {
+  width: 100px;
 }
