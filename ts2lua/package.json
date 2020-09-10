@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "ts2lua",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "dota-lua-types": "^4.5.0",
+    "lua-types": "^2.8.0",
+    "typescript-to-lua": "^0.35.0"
+  },
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

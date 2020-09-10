@@ -1,0 +1,666 @@
+---------------------------------------------------------------------
+OnAbilityStart [1]
+new_pos	Vector 00000000006D1288 [0.000000 0.000000 0.000000]
+process_procs	false
+order_type	0
+octarine_tested	false
+issuer_player_index	32763
+stout_tested	false
+fail_type	1115000
+damage_category	0
+reincarnate	false
+activity	-1
+damage	0
+ignore_invis	false
+ability	table: 0x001fab30
+ranged_attack	false
+record	0
+unit	table: 0x001f81c8
+do_not_consume	false
+damage_type	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	0
+gain	0
+basher_tested	false
+target	table: 0x006c9740
+---------------------------------------------------------------------
+OnAbilityExecuted [2]
+new_pos	Vector 0000000000D1E080 [0.000000 0.000000 0.000000]
+process_procs	false
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	-299301375
+damage_category	0
+reincarnate	false
+activity	-1
+damage	0
+ignore_invis	false
+ability	table: 0x001fab30
+ranged_attack	false
+record	469
+unit	table: 0x001f81c8
+do_not_consume	false
+damage_type	126
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	0
+gain	0
+basher_tested	false
+target	table: 0x006c9740
+---------------------------------------------------------------------
+OnAbilityFullyCast [3]
+new_pos	Vector 0000000000886438 [0.000000 0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	32763
+stout_tested	false
+fail_type	-1
+damage_category	0
+reincarnate	false
+activity	-1
+damage	0
+ignore_invis	false
+ability	table: 0x001fab30
+ranged_attack	false
+record	0
+unit	table: 0x001f81c8
+do_not_consume	false
+damage_type	469
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	165
+gain	0
+basher_tested	false
+target	table: 0x006c9740
+[Lua Memory]  4241.341 KB  4.142 MB
+[Hashtable Count]  0
+---------------------------------------------------------------------
+OnAbilityEndChannel 仅parent身上的技能end channel
+new_pos	Vector 000000000022A460 [0.000000 0.000000 0.000000]
+process_procs	false
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+ability table: 0x00df4558
+ranged_attack	false
+record	0
+unit table: 0x007223c0
+do_not_consume	false
+damage_type	119
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+gain	0
+cost	0
+basher_tested	false
+distance	0
+---------------------------------------------------------------------
+onTakeDamage + OnDeath
+[new_pos]:Vector0000000000496840[0.0000000.0000000.000000]
+[process_procs]:true
+[order_type]:0
+[octarine_tested]:false
+[issuer_player_index]:0
+[stout_tested]:false
+[fail_type]:0
+[damage_category]:1
+[reincarnate]:false
+[damage]:122.32252502441
+[ignore_invis]:false
+[attacker]:table:0x00cad888
+[ranged_attack]:false
+[record]:155
+[unit]:table:0x00a50c18
+[do_not_consume]:false
+[damage_type]:1
+[activity]:-1
+[heart_regen_applied]:false
+[diffusal_applied]:false
+[mkb_tested]:false
+[no_attack_cooldown]:false
+[damage_flags]:0
+[original_damage]:173.06799316406
+[gain]:0
+[cost]:0
+[basher_tested]:false
+[distance]:0
+---------------------------------------------------------------------
+OnTakeDamage:
+new_pos	Vector 00000000009513D8 [0.000000 0.000000 0.000000]
+process_procs	false
+order_type	0
+activity	-1
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+sange_amp_applied	false
+fail_type	48
+damage_category	0
+reincarnate	false
+locket_amp_applied	false
+distance	0
+gain	0
+attacker	table: 0x00944dc0
+ranged_attack	false
+record	29
+unit	table: 0x008e34b0
+do_not_consume	false
+damage_type	2
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+damage	215.65432739258
+inflictor	table: 0x00ccaa08
+damage_flags	0
+original_damage	313.52398681641
+cost	0
+ignore_invis	false
+basher_tested	false
+no_attack_cooldown	false
+
+new_pos	Vector 0000000000C12BB0 [0.000000 0.000000 0.000000]
+process_procs	false
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+fail_type	0
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	67.992202758789
+ignore_invis	false
+attacker	table: 0x00944dc0
+ranged_attack	false
+record	30
+unit	table: 0x008e34b0
+do_not_consume	false
+damage_type	1
+sange_amp_applied	false
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	159
+gain	0
+cost	0
+basher_tested	false
+distance	0
+---------------------------------------------------------------------
+on take damage kill credit
+new_pos	Vector 000000000064EDC8 [0.000000 -0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+activity	-1
+distance	0
+gain	nan
+attacker	table: 0x008038e0
+ranged_attack	false
+record	255
+heart_regen_applied	false
+do_not_consume	false
+damage_type	2
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+cost	0
+inflictor	table: 0x008006a0
+damage_flags	0
+original_damage	1181.1784667969
+ignore_invis	false
+damage	868.16619873047
+basher_tested	false
+target	table: 0x0059b538
+---------------------------------------------------------------------
+GetModifierIncomingDamage_Percentage
+new_pos	Vector 0000000000CE8730 [0.000000 -0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+target	table: 0x00a3fb60
+damage_category	1
+reincarnate	false
+damage	62.753383636475
+ignore_invis	false
+attacker	table: 0x00b0c0a0
+ranged_attack	false
+record	8
+activity	-1
+do_not_consume	false
+damage_type	1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	159
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+---------------------------------------------------------------------
+OnAttackStart
+new_pos	Vector 00000000003E16A0 [0.000000 3505.218750 0.000000]
+process_procs	false
+order_type	0
+octarine_tested	false
+issuer_player_index	32764
+stout_tested	false
+target	table: 0x00b5e020
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+attacker	table: 0x001e8640
+ranged_attack	false
+record	469
+activity	-1
+do_not_consume	false
+damage_type	469
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	0
+gain	0
+basher_tested	false
+fail_type	173094096
+---------------------------------------------------------------------
+OnModifierAdded
+[new_pos]: Vector 0000000000330248 [0.000000 0.000000 0.000000]
+[process_procs]: false
+[order_type]: 0
+[octarine_tested]: false
+[issuer_player_index]: 493
+[stout_tested]: false
+[fail_type]: -242984704
+[damage_category]: 0
+[reincarnate]: false
+[damage]: 0
+[ignore_invis]: false
+[cost]: 0
+[ranged_attack]: false
+[record]: 493
+[unit]: table: 0x00cb3ec8
+[do_not_consume]: false
+[damage_type]: 0
+[activity]: -1
+[heart_regen_applied]: false
+[diffusal_applied]: false
+[no_attack_cooldown]: false
+[damage_flags]: 0
+[original_damage]: 0
+[mkb_tested]: false
+[gain]: 0
+[basher_tested]: false
+[distance]: 0
+---------------------------------------------------------------------
+OnDamageCalculated
+new_pos	Vector 00000000007A0B40 [0.000000 -863738.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+target	table: 0x006bc288
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	51.897232055664
+ignore_invis	false
+attacker	table: 0x00ab7120
+ranged_attack	false
+record	229
+sange_amp_applied	false
+do_not_consume	false
+damage_type	1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	56
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+
+OnDamageCalculated
+new_pos	Vector 00000000007A0B40 [0.000000 -863738.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+target	table: 0x006bc288
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	51.897232055664
+ignore_invis	false
+attacker	table: 0x00ab7120
+ranged_attack	false
+record	229
+sange_amp_applied	false
+do_not_consume	false
+damage_type	1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	56
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+---------------------------------------------------------------------
+GetModifierIncomingPhysicalDamage_Percentage
+new_pos	Vector 0000000000BAC108 [0.000000 -0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+target	table: 0x008c17b8
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	50.860214233398
+ignore_invis	false
+attacker	table: 0x00b9eda8
+ranged_attack	false
+record	2
+sange_amp_applied	false
+do_not_consume	false
+damage_type	1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	55
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+---------------------------------------------------------------------
+onorder
+order_type -> DOTA_UNIT_ORDER_ATTACK_TARGET (4)
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+cost	0
+ranged_attack	false
+record	0
+unit	table: 0x00b74be8
+do_not_consume	false
+damage_type	1084805989
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+gain	0
+target	table: 0x00c84298
+basher_tested	false
+distance	0
+new_pos	Vector 0000000000AFB020 [0.000000 0.000000 0.000000]
+process_procs	true
+----------------------------------------------------------------------------------------------------
+MODIFIER_EVENT_ON_ATTACKED OnAttacked
+new_pos	Vector 0000000001208200 [0.000000 0.000000 0.000000]
+process_procs	true
+order_type	0
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+activity	-1
+target	table: 0x0116a260
+damage_category	1
+reincarnate	false
+locket_amp_applied	false
+damage	0
+ignore_invis	false
+attacker	table: 0x001d9608
+ranged_attack	false
+record	8
+sange_amp_applied	false
+do_not_consume	false
+damage_type	0
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+distance	0
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+cost	0
+gain	0
+basher_tested	false
+fail_type	0
+----------------------------------------------------------------------------------------------------
+order_type -> DOTA_UNIT_ORDER_CAST_POSITION (5)
+new_pos	Vector 0000000000763EA0 [-6047.280762 -6142.726563 384.000000]
+process_procs	true
+order_type	5
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+ability	table: 0x01034910
+ranged_attack	false
+record	0
+unit	table: 0x00a01be0
+do_not_consume	false
+damage_type	1084271932
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+gain	0
+cost	0
+basher_tested	false
+distance	0
+
+new_pos	Vector 00000000002D8098 [-5478.152832 -6350.941895 384.000000]
+process_procs	true
+order_type	1
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+cost	0
+ranged_attack	false
+record	0
+unit	table: 0x009fc480
+do_not_consume	false
+damage_type	1082335332
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+mkb_tested	false
+gain	0
+basher_tested	false
+distance	0
+
+new_pos	Vector 00000000003B4650 [0.000000 0.000000 0.000000]
+process_procs	true
+order_type	4
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+fail_type	0
+damage_category	0
+reincarnate	false
+damage	0
+ignore_invis	false
+cost	0
+ranged_attack	false
+record	0
+unit	table: 0x009fc480
+do_not_consume	false
+damage_type	1082813952
+activity	-1
+heart_regen_applied	false
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+damage_flags	0
+original_damage	0
+gain	0
+target	table: 0x005030a0
+basher_tested	false
+----------------------------------------------------------------------------------------------------
+MODIFIER_PROPERTY_AVOID_DAMAGE GetModifierAvoidDamage
+new_pos	Vector 0000000000737BB0 [0.000000 -1598.416016 0.000000]
+process_procs	true
+order_type	0
+activity	-1
+octarine_tested	false
+issuer_player_index	0
+stout_tested	false
+sange_amp_applied	false
+fail_type	0
+damage_category	0
+reincarnate	false
+locket_amp_applied	false
+distance	0
+gain	0
+attacker	table: 0x00ba8870
+ranged_attack	false
+record	48
+heart_regen_applied	false
+do_not_consume	false
+damage_type	1
+diffusal_applied	false
+mkb_tested	false
+no_attack_cooldown	false
+cost	0
+inflictor	table: 0x0083dda8
+damage_flags	16777216
+original_damage	5
+ignore_invis	false
+damage	4.8076920509338
+basher_tested	false
+target	table: 0x003f7568
+
+---------------------------------------------------------------------
+CreateLinearProjectile params:
+Ability,
+Source,
+vSpawnOrigin,
+vVelocity,
+vAcceleration,	// 加速度
+fDistance,
+fStartRadius,
+fEndRadius,
+bHasFrontalCone,
+iUnitTargetTeam,
+iUnitTargetType,
+iUnitTargetFlags,
+bProvidesVision,
+iVisionTeamNumber,
+iVisionRadius,
+bDrawsOnMinimap,
+bVisibleToEnemies,
+bIgnoreSource,
+fExpireTime,
+fMaxSpeed,
+bDeleteOnHit
+---------------------------------------------------------------------
+CreateTrackingProjectile:
+Ability,
+Source,						// caster
+Target,
+EffectName,
+iMoveSpeed,
+vSourceLoc,
+iSourceAttachment,
+bProvidesVision, 			// 提供视野
+iVisionTeamNumber,
+iVisionRadius,
+bDrawsOnMinimap, 			// 小地图绘制
+bDodgeable, 				// 可躲避
+bIsAttack,
+bVisibleToEnemies,
+bReplaceExisting,
+flExpireTime 				// 到期时间
+----------------------------------------------------------------------------------------------------
+ApplyDamage({
+		ability = hAbility,
+		attacker = hCaster,
+		victim = hTarget,
+		damage = fDamage,
+		damage_type = DAMAGE_TYPE_PHYSICAL
+	})

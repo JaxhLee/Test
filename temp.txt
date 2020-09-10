@@ -1,21 +1,78 @@
-http://47.111.97.36/pay/pay_result/success.php?usd=1&ticket=2
-
-
-http://47.111.97.36/pay/payssion/return.php?transaction_id=T228755488043503&pm_id=payssion_test&state=cancelled&amount=4.00&currency=USD&order_id=836-1582877762-19454-9999&notify_sig=ea05a484ef297092bc26d48469de1c93
-
-
-http://47.111.97.36/pay/payssion/return.php?transaction_id=T228755488043503&pm_id=payssion_test&state=failed&amount=4.00&currency=USD&order_id=836-1582877762-19454-9999&notify_sig=ea05a484ef297092bc26d48469de1c93
-
-return 页 $_GET 参数
-{
-	["transaction_id"] => string(16) "T228842247084372"
-	["pm_id"]=> string(13) "payssion_test"
-	["state"]=> string(9) "completed"
-	["amount"]=> string(4) "1.00"
-	["currency"]=> string(3) "USD"
-	["order_id"]=> string(25) "489-1582886437-23016-9999"
-	["notify_sig"]=> string(32) "611478c24baa33b6edfcf19fc4f12917"
-}
-
-
-https://to-do.microsoft.com/sharing?InvitationToken=tCASWh6QBqFoo0yv6zyN1w4Gqe0oY7J-kpYhE1T0qxXDlEo1q8WuwwOAU4TRVFsc8
+E-banking#ebanking_my#Malaysia
+eNets#enets_sg#Singapore
+E-banking#ebanking_th#Thailand
+Doku#doku_id#Indonesia
+ATM#atm_id#Indonesia
+Alfamart#alfamart_id#Indonesia
+Dragonpay#dragonpay_ph#Philippines
+Globe Gcash#gcash_ph#Philippines
+CherryCredits#cherrycredits#Global including South East
+MOLPoints#molpoints#Global including South East
+MOLPoints card#molpointscard#Global including South East
+Alipay#alipay_cn#China
+Tenpay#tenpay_cn#China
+Unionpay#unionpay_cn#China
+Gash#gash_tw#Taiwan
+UPI#upi_in#India
+Paytm#paytm_in#India
+India Netbanking#ebanking_in#India
+India Credit/Debit Card#bankcard_in#India
+South Korea Credit Card#creditcard_kr#South Korea
+South Korea Internet Banking#ebanking_kr#South Korea
+onecard#onecard#Middle East & North Africa
+Fawry#fawry_eg#Egypt
+Santander Rio#santander_ar#Argentina
+Pago Fácil#pagofacil_ar#Argentina
+Rapi Pago#rapipago_ar#Argentina
+bancodobrasil#bancodobrasil_br#Brazil
+itau#itau_br#Brazil
+Boleto#boleto_br#Brazil
+bradesco#bradesco_br#Brazil
+caixa#caixa_br#Brazil
+Santander#santander_br#Brazil
+BBVA Bancomer#bancomer_mx#Mexico
+Santander#santander_mx#Mexico
+oxxo#oxxo_mx#Mexico
+SPEI#spei_mx#Mexico
+redpagos#redpagos_uy#Uruguay
+Abitab#abitab_uy#Uruguay
+Banco de Chile#bancochile_cl#Chile
+RedCompra#redcompra_cl#Chile
+WebPay plus#webpay_cl#Chile
+Servipag#servipag_cl#Chile
+Santander#santander_cl#Chile
+Efecty#efecty_co#Colombia
+PSE#pse_co#Colombia
+BCP#bcp_pe#Peru
+Interbank#interbank_pe#Peru
+BBVA#bbva_pe#Peru
+Pago Efectivo#pagoefectivo_pe#Peru
+BoaCompra#boacompra#Latin America
+QIWI#qiwi#CIS countries
+Yandex.Money#yamoney#CIS countries
+Webmoney#webmoney#CIS countries
+Bank Card (Yandex.Money)#yamoneyac#CIS countries
+Cash (Yandex.Money)#yamoneygp#Russia
+Moneta#moneta_ru#Russia
+Alfa-Click#alfaclick_ru#Russia
+Promsvyazbank#promsvyazbank_ru#Russia
+Faktura#faktura_ru#Russia
+Russia Bank transfer#banktransfer_ru#Russia
+Turkish Credit/Bank Card#bankcard_tr#Turkey
+ininal#ininal_tr#Turkey
+bkmexpress#bkmexpress_tr#Turkey
+Turkish Bank Transfer#banktransfer_tr#Turkey
+Paysafecard#paysafecard#Global
+Sofort#sofort#Europe
+Giropay#giropay_de#Germany
+EPS#eps_at#Austria
+Bancontact/Mistercash#bancontact_be#Belgium
+Dotpay#dotpay_pl#Poland
+P24#p24_pl#Poland
+PayU#payu_pl#Poland
+PayU#payu_cz#Czech Republic
+iDeal#ideal_nl#Netherlands
+Multibanco#multibanco_pt#Portugal
+Neosurf#neosurf#France
+Polipayment#polipayment#Australia & New Zealand
+bitcoin, litecoin…#bitcoin#Global

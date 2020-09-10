@@ -1,1 +1,9 @@
-print(tonumber("22"))
+docker run --detach \
+--hostname localhost \
+--publish 443:443 --publish 80:80 --publish 22:22 \
+--name gitlab \
+--restart always \
+--volume $GITLAB_HOME/config:/etc/gitlab:Z \
+--volume $GITLAB_HOME/logs:/var/log/gitlab:Z \
+--volume $GITLAB_HOME/data:/var/opt/gitlab:Z \
+gitlab / gitlab - ee:latest

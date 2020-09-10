@@ -1,2 +1,2 @@
 <?php
-echo "Hello";
+echo sprintf('%06d', 333.1);

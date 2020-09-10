@@ -1,5 +1,6 @@
 {
 	"tss-less.compile": {
 		"compress": false
-	}
+	},
+	"python.pythonPath": "C:\\Python27\\python.exe"
 }

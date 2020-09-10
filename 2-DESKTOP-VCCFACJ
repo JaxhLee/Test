@@ -1,0 +1,50 @@
+SELECT
+	info_hero_card_growup.cardid AS id,
+	info_hero_card_growup.xp_1 AS x1,
+	info_hero_card_growup.special_1 AS s1,
+	info_hero_card_growup.type_1 AS t1,
+	info_hero_card_growup.value_1 AS v1,
+	info_hero_card_growup.xp_2 AS x2,
+	info_hero_card_growup.special_2 AS s2,
+	info_hero_card_growup.type_2 AS t2,
+	info_hero_card_growup.value_2 AS v2,
+	info_hero_card_growup.xp_3 AS x3,
+	info_hero_card_growup.special_3 AS s3,
+	info_hero_card_growup.type_3 AS t3,
+	info_hero_card_growup.value_3 AS v3,
+	info_hero_card_growup.xp_4 AS x4,
+	info_hero_card_growup.special_4 AS s4,
+	info_hero_card_growup.type_4 AS t4,
+	info_hero_card_growup.value_4 AS v4,
+	info_hero_card_growup.xp_5 AS x5,
+	info_hero_card_growup.special_5 AS s5,
+	info_hero_card_growup.type_5 AS t5,
+	info_hero_card_growup.value_5 AS v5,
+	info_hero_card_growup.xp_6 AS x6,
+	info_hero_card_growup.special_6 AS s6,
+	info_hero_card_growup.type_6 AS t6,
+	info_hero_card_growup.value_6 AS v6,
+	info_hero_card_growup.xp_7 AS x7,
+	info_hero_card_growup.special_7 AS s7,
+	info_hero_card_growup.type_7 AS t7,
+	info_hero_card_growup.value_7 AS v7,
+	info_hero_card_growup.xp_8 AS x8,
+	info_hero_card_growup.special_8 AS s8,
+	info_hero_card_growup.type_8 AS t8,
+	info_hero_card_growup.value_8 AS v8,
+	info_hero_card_growup.xp_9 AS 9,
+	info_hero_card_growup.special_9 AS 9,
+	info_hero_card_growup.type_9 AS 9,
+	info_hero_card_growup.value_9 AS 9,
+	info_hero_card_growup.xp_10 AS x10,
+	info_hero_card_growup.special_10 AS s10,
+	info_hero_card_growup.type_10 AS t10,
+	info_hero_card_growup.value_10 AS v10
+FROM
+	info_hero_card_growup
+
+
+x1
+s1
+t1
+v1

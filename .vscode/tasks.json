@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "buildTS",
+            "label": "tsc: build - tsconfig.json",
             "type": "typescript",
             "tsconfig": "ts/tsconfig.json",
             "problemMatcher": [

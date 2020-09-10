@@ -1,0 +1,2 @@
+寻找比赛
+k_EMsgGCStartFindingMatch = 7033
