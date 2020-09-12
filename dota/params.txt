@@ -656,3 +656,11 @@ bIsAttack,
 bVisibleToEnemies,
 bReplaceExisting,
 flExpireTime 				// 到期时间
+----------------------------------------------------------------------------------------------------
+ApplyDamage({
+		ability = hAbility,
+		attacker = hCaster,
+		victim = hTarget,
+		damage = fDamage,
+		damage_type = DAMAGE_TYPE_PHYSICAL
+	})

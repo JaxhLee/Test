@@ -1,22 +1,38 @@
-function TableRemove(t: any, condition: (v, k) => boolean) {
-	if (t && condition && typeof (condition) == "function")
-		if (t instanceof Array) {
-			for (let i = 0; i < t.length; i++)
-				if (condition(t[i], i)) { t.splice(i, 1); i-- }
-		}
-		else
-			for (const k in t) if (condition(t[k], k)) delete t[k]
-}
+// const o: o1 = {
+// 	"k1": {
+// 		"kk1": 1,
+// 		"kk2": {
+// 			"0": 2
+// 		},
+// 		"kk3": 3,
+// 	}
+// }
 
-const t = {
-	[1]: 1,
-	[2]: 2,
-	[3]: 4,
-	[4]: 1,
-}
-TableRemove(t, v => v == 1)
-console.log(t);
+// type o = { [k: string]: { [k: string]: {} } }
+// interface o1 { k1: { kk1: number, kk2: { 0: number }, kk3: number } }
 
-const t2 = [1, 2, 3, 4, 1, 1]
-TableRemove(t2, v => v == 1)
-console.log(t2);
+
+// function Obj2Interface(obj: any) {
+// 	let str = "interface o1 {"
+
+// 	for (const k in obj) {
+// 		const e = obj[k];
+// 		if (typeof (e) == "object") {
+// 			Obj2Interface(e)
+// 		}
+// 	}
+
+// }
+// Obj2Interface(o)
+
+
+const a = [1, 2, 3]
+const b = {}
+console.log(a instanceof Array);
+console.log(typeof (a));
+console.log(typeof (b));
+console.log(b instanceof Array);
+
+delete a[0]
+console.log(a);
+
